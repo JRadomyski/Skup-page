@@ -1,100 +1,86 @@
-<style type="text/css">body {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    margin: 0;
-    box-sizing: border-box;
-}
+<style type="text/css">
 
-a {
-    color: #ff6600;
-    text-decoration: none;
-}
+    a {
+        color: #ff6600;
+        text-decoration: none;
+    }
 
-.contact-locations {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
-
-.contact-links {
-    display: flex;
-    flex-direction: column;
-}
-
-@media (max-width: 768px) {
     .contact-locations {
-        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 20px;
     }
 
     .contact-links {
-        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
     }
-}
 
-button {
-    background-color: #ff6600;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-}
+    @media (max-width: 768px) {
+        .contact-locations {
+            flex-direction: column;
+        }
 
-ul {
-    padding-left: 20px;
-}
+        .contact-links {
+            margin-bottom: 20px;
+        }
+    }
 
-li {
-    list-style-type: none;
-}
+    button {
+        background-color: #ff6600;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+    }
 
-.info-section {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
+    ul {
+        padding-left: 20px;
+    }
 
-.info-block {
-    flex: 1 1 200px;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid #ff6600;
-    text-align: center;
-}
+    .info-section {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
+    .info-block {
+        flex: 1 1 200px;
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid #ff6600;
+        text-align: center;
+    }
 
-.text-section {
-    padding: 20px;
-    background-color: #f8f8f8;
-    border-radius: 8px;
-    text-align: center;
-}
+    img {
+        max-width: 100%;
+        height: auto;
+    }
 
-/* Dodatkowe style */
-.orange-background {
-    background-color: #ff6600;
-    color: white;
-    padding: 20px;
-}
+    .text-section {
+        padding: 20px;
+        background-color: #f8f8f8;
+        border-radius: 8px;
+        text-align: center;
+    }
 
-.flex-container {
-    display: flex;
-    align-items: center;
-}
+    .orange-background {
+        background-color: #ff6600;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        margin-right: 10px;
+    }
 
-.flex-container .text {
-    flex: 1;
-    padding: 10px;
-}
+    .flex-container {
+        display: flex;
+        align-items: center;
+    }
 
-.flex-container .image {
-    flex: 1;
-    padding: 10px;
-}
+    .text {
+        padding: 10px;
+    }
 </style>
 <div style="padding: 20px; font-family: Arial, sans-serif;">
 <h1>Skup książek stacjonarny i online – Tezeusz.pl</h1>
@@ -106,8 +92,8 @@ img {
 <h2 style="color: rgb(255, 102, 0);"><strong>Jak wymienić niepotrzebne książki na złotówki?</strong></h2>
 
 <ul>
-<li>Masz <strong>mniej niż 50 książek</strong> spełniających nasze kryteria – wejdź na <a href="http://www.skupksiazek.pl" style="color: #ff6600;">www.skupksiazek.pl</a></li>
-<li>Ty (lub Twoja instytucja – biblioteka, księgarnia, parafia) masz ponad 50 książek spełniających nasze kryteria?</li>
+	<li>Masz <strong>mniej niż 50 książek</strong> spełniających nasze kryteria – wejdź na <a href="http://www.skupksiazek.pl" style="color: #ff6600;">www.skupksiazek.pl</a></li>
+	<li>Ty (lub Twoja instytucja – biblioteka, księgarnia, parafia) masz ponad 50 książek spełniających nasze kryteria?</li>
 </ul>
 
 <hr />
@@ -117,44 +103,44 @@ img {
 
 <div class="contact-locations">
 <div class="contact-links">
-<p><strong>Białystok</strong> – tel. 532 399 640, e-mail: bialoleka@skupksiazek.pl</p>
+<p><span style="font-size:20px;"><strong>Białystok</strong> – tel. 532 399 640, e-mail: bialoleka@skupksiazek.pl</span></p>
 
-<p><strong>Bydgoszcz</strong> – 728 809 171, e-mail: gdansk@skupksiazek.pl</p>
+<p><span><strong>Bydgoszcz</strong> – 728 809 171, e-mail: gdansk@skupksiazek.pl</span></p>
 
-<p><strong>Gdańsk</strong> – 728 809 171, e-mail: gdansk@skupksiazek.pl</p>
+<p><span><strong>Gdańsk</strong> – 728 809 171, e-mail: gdansk@skupksiazek.pl</span></p>
 
-<p><strong>Katowice</strong> – tel. 698 110 410, e-mail: katowice@skupksiazek.pl</p>
+<p><span><strong>Katowice</strong> – tel. 698 110 410, e-mail: katowice@skupksiazek.pl</span></p>
 
-<p><strong>Kielce</strong> – tel. 698 110 410, e-mail: krakow@skupksiazek.pl</p>
+<p><span><strong>Kielce</strong> – tel. 698 110 410, e-mail: krakow@skupksiazek.pl</span></p>
 
-<p><strong>Kraków</strong> – tel. 698 110 410, e-mail: krakow@skupksiazek.pl</p>
+<p><span><strong>Kraków</strong> – tel. 698 110 410, e-mail: krakow@skupksiazek.pl</span></p>
 
-<p><strong>Lublin</strong> – tel. 698 110 410, e-mail: krakow@skupksiazek.pl</p>
+<p><span><strong>Lublin</strong> – tel. 698 110 410, e-mail: krakow@skupksiazek.pl</span></p>
 
-<p><strong>Łódź</strong> – tel. 664 080 300, e-mail: wroclaw@skupksiazek.pl</p>
+<p><span><strong>Łódź</strong> – tel. 664 080 300, e-mail: wroclaw@skupksiazek.pl</span></p>
 
-<p><strong>Olsztyn</strong> – tel. 532 399 640, e-mail: bialoleka@skupksiazek.pl</p>
+<p><span><strong>Olsztyn</strong> – tel. 532 399 640, e-mail: bialoleka@skupksiazek.pl</span></p>
 
-<p><strong>Opole</strong> – tel. 664 080 300, e-mail: wroclaw@skupksiazek.pl</p>
+<p><span><strong>Opole</strong> – tel. 664 080 300, e-mail: wroclaw@skupksiazek.pl</span></p>
 
-<p><strong>Poznań</strong> – tel. 664 080 300, e-mail: wroclaw@skupksiazek.pl</p>
+<p><span><strong>Poznań</strong> – tel. 664 080 300, e-mail: wroclaw@skupksiazek.pl</span></p>
 
-<p><strong>Rzeszów</strong> – tel. 532 399 640, e-mail: bialoleka@skupksiazek.pl</p>
+<p><span><strong>Rzeszów</strong> – tel. 532 399 640, e-mail: bialoleka@skupksiazek.pl</span></p>
 
-<p><strong>Szczecin</strong> – tel. 728 809 171, e-mail: gdansk@skupksiazek.pl</p>
+<p><span><strong>Szczecin</strong> – tel. 728 809 171, e-mail: gdansk@skupksiazek.pl</span></p>
 
-<p><strong>Toruń</strong> – tel. 728 809 171, e-mail: gdansk@skupksiazek.pl</p>
+<p><span><strong>Toruń</strong> – tel. 728 809 171, e-mail: gdansk@skupksiazek.pl</span></p>
 
-<p><strong>Warszawa</strong> – tel. 532 399 640, e-mail: bialoleka@skupksiazek.pl</p>
+<p><span><strong>Warszawa</strong> – tel. 532 399 640, e-mail: bialoleka@skupksiazek.pl</span></p>
 
-<p><strong>Wrocław</strong> – tel. 664 080 300, e-mail: wroclaw@skupksiazek.pl</p>
+<p><span><strong>Wrocław</strong> – tel. 664 080 300, e-mail: wroclaw@skupksiazek.pl</span></p>
 
-<p><strong>Zielona Góra</strong> – tel. 664 080 300, e-mail: wroclaw@skupksiazek.pl</p>
+<p><span><strong>Zielona Góra</strong> – tel. 664 080 300, e-mail: wroclaw@skupksiazek.pl</span></p>
 </div>
 
 <div>
 <h2><strong><span style="color:#ff8235;">Możesz też od razu przyjechać do jednego z naszych punktów stacjonarnych:</span></strong></h2>
-<img alt="" src="https://static2.tezeusz.pl/media/0001/01/707c273394363aa3a24c586752796b4b9794ee12.png" style="width: 702px; height: 650px;" /></div>
+<img alt="Lokalizacje skupów" src="https://static2.tezeusz.pl/media/0001/01/707c273394363aa3a24c586752796b4b9794ee12.png" style="width: 702px; height: 650px;" /></div>
 </div>
 </div>
 <!-- Second Part Section -->
@@ -249,13 +235,13 @@ img {
 <h4>Książki powinny być suche i czyste. Najchętniej skupujemy pozycje o różnej tematyce:</h4>
 
 <ul style="list-style: none; padding: 0;">
-<li style="padding: 5px 0;"><span style="color: green;">✔</span> naukowe,</li>
-<li style="padding: 5px 0;"><span style="color: green;">✔</span> popularnonaukowe,</li>
-<li style="padding: 5px 0;"><span style="color: green;">✔</span> profesjonalne,</li>
-<li style="padding: 5px 0;"><span style="color: green;">✔</span> poradniki,</li>
-<li style="padding: 5px 0;"><span style="color: green;">✔</span> literaturę piękną,</li>
-<li style="padding: 5px 0;"><span style="color: green;">✔</span> komiksy,</li>
-<li style="padding: 5px 0;"><span style="color: green;">✔</span> aktualne podręczniki akademickie i do szkół średnich.</li>
+	<li style="padding: 5px 0;"><span style="color: green;">✔</span> naukowe,</li>
+	<li style="padding: 5px 0;"><span style="color: green;">✔</span> popularnonaukowe,</li>
+	<li style="padding: 5px 0;"><span style="color: green;">✔</span> profesjonalne,</li>
+	<li style="padding: 5px 0;"><span style="color: green;">✔</span> poradniki,</li>
+	<li style="padding: 5px 0;"><span style="color: green;">✔</span> literaturę piękną,</li>
+	<li style="padding: 5px 0;"><span style="color: green;">✔</span> komiksy,</li>
+	<li style="padding: 5px 0;"><span style="color: green;">✔</span> aktualne podręczniki akademickie i do szkół średnich.</li>
 </ul>
 </div>
 
@@ -263,16 +249,16 @@ img {
 <h4>Takich książek nie skupujemy:</h4>
 
 <ul style="list-style: none; padding: 0;">
-<li style="padding: 5px 0;"><span style="color: red;">✖</span> Podręczniki do gimnazjum i szkoły podstawowej,</li>
-<li style="padding: 5px 0;"><span style="color: red;">✖</span> Podręczniki do liceum i technikum wydane przed 2019 r. (wyjątek: podręczniki do liceum plastycznego),</li>
-<li style="padding: 5px 0;"><span style="color: red;">✖</span> Vademeca, repetytoria, maturalne karty pracy wydane przed 2019 r.,</li>
-<li style="padding: 5px 0;"><span style="color: red;">✖</span> Podręczniki szkolne do nauki języków obcych wydanych przed 2019 r. (wyjątek: książki do samodzielnej nauki),</li>
-<li style="padding: 5px 0;"><span style="color: red;">✖</span> Podręczniki szkolne przeznaczone dla nauczycieli (z odpowiedziami),</li>
-<li style="padding: 5px 0;"><span style="color: red;">✖</span> Kodeksy prawne, ustawy, komentarze do zmienionych rok wstecz (wyjątek: prawo kanoniczne, prawo rzymskie, antyki),</li>
-<li style="padding: 5px 0;"><span style="color: red;">✖</span> Nieaktualowane płyty CD, DVD, winylowe,</li>
-<li style="padding: 5px 0;"><span style="color: red;">✖</span> Książki pisane alfabetem Braille'a,</li>
-<li style="padding: 5px 0;"><span style="color: red;">✖</span> Książki z wyraźnymi śladami zniszczenia,</li>
-<li style="padding: 5px 0;"><span style="color: red;">✖</span> Gazety, czasopisma i katalogi.</li>
+	<li style="padding: 5px 0;"><span style="color: red;">✖</span> Podręczniki do gimnazjum i szkoły podstawowej,</li>
+	<li style="padding: 5px 0;"><span style="color: red;">✖</span> Podręczniki do liceum i technikum wydane przed 2019 r. (wyjątek: podręczniki do liceum plastycznego),</li>
+	<li style="padding: 5px 0;"><span style="color: red;">✖</span> Vademeca, repetytoria, maturalne karty pracy wydane przed 2019 r.,</li>
+	<li style="padding: 5px 0;"><span style="color: red;">✖</span> Podręczniki szkolne do nauki języków obcych wydanych przed 2019 r. (wyjątek: książki do samodzielnej nauki),</li>
+	<li style="padding: 5px 0;"><span style="color: red;">✖</span> Podręczniki szkolne przeznaczone dla nauczycieli (z odpowiedziami),</li>
+	<li style="padding: 5px 0;"><span style="color: red;">✖</span> Kodeksy prawne, ustawy, komentarze do zmienionych rok wstecz (wyjątek: prawo kanoniczne, prawo rzymskie, antyki),</li>
+	<li style="padding: 5px 0;"><span style="color: red;">✖</span> Nieaktualowane płyty CD, DVD, winylowe,</li>
+	<li style="padding: 5px 0;"><span style="color: red;">✖</span> Książki pisane alfabetem Braille'a,</li>
+	<li style="padding: 5px 0;"><span style="color: red;">✖</span> Książki z wyraźnymi śladami zniszczenia,</li>
+	<li style="padding: 5px 0;"><span style="color: red;">✖</span> Gazety, czasopisma i katalogi.</li>
 </ul>
 </div>
 </div>
@@ -283,10 +269,10 @@ img {
 
 <div class="flex-container">
 <div class="text orange-background">
-<h2 style="text-align: center;"><span style="font-size:36px;"><strong>Dojeżdżamy bezpłatnie do każdej miejscowości w Polsce!</strong> </span></h2>
+<h2 style="text-align: center;"><span><strong>Dojeżdżamy bezpłatnie do każdej miejscowości w Polsce!</strong> </span></h2>
 </div>
 
-<div class="image"><img alt="" src="https://static2.tezeusz.pl/media/0001/01/49c2bc3ef64fd0a74f7c6eb3475ac8df9f87b35a.jpeg" /></div>
+<div class="image"><img alt="Dostawca" src="https://static2.tezeusz.pl/media/0001/01/49c2bc3ef64fd0a74f7c6eb3475ac8df9f87b35a.jpeg" style="width:765px;" /></div>
 </div>
 </div>
 <!-- Fifth Part Section -->
@@ -322,14 +308,14 @@ img {
 <div style="padding: 20px; font-family: Arial, sans-serif;">
 <h3>Sprzedaj niepotrzebne książki w skupie Tezeusza, a dzięki temu...</h3>
 
-<ul style="list-style-type: disc; padding-left: 20px;">
-<li>Za każdą książkę spełniającą nasze warunki otrzymasz od kilku do kilkudziesięciu złotych (kwotę za cenniejsze pozycje omówimy osobno) i zasilisz domowy budżet.</li>
-<li>Szybko i sprawnie zmonetyzujesz zbiory instytucji, którą reprezentujesz.</li>
-<li>Pozbędziesz się „łapaczy kurzu” i zwolnisz miejsce na regałach.</li>
-<li>Uporządkujesz swój księgozbiór i zyskasz przestrzeń na nowe tytuły.</li>
-<li>Zaoszczędzisz kilkadziesiąt godzin potrzebnych na sfotografowanie i opisanie książek oraz wystawienie ogłoszeń na portalach internetowych lub w grupach sprzedażowych.</li>
-<li>Zyskasz gwarancję odbioru całego zaakceptowanego przez nas zbioru, przez co sprzedaż nawet kilkaset książek w jeden dzień!</li>
-<li>Podarujesz literaturze nowe życie i zadbasz o redukcję odpadów, przez co odciążysz planetę.</li>
+<ul>
+	<li>Za każdą książkę spełniającą nasze warunki otrzymasz od kilku do kilkudziesięciu złotych (kwotę za cenniejsze pozycje omówimy osobno) i zasilisz domowy budżet.</li>
+	<li>Szybko i sprawnie zmonetyzujesz zbiory instytucji, którą reprezentujesz.</li>
+	<li>Pozbędziesz się „łapaczy kurzu” i zwolnisz miejsce na regałach.</li>
+	<li>Uporządkujesz swój księgozbiór i zyskasz przestrzeń na nowe tytuły.</li>
+	<li>Zaoszczędzisz kilkadziesiąt godzin potrzebnych na sfotografowanie i opisanie książek oraz wystawienie ogłoszeń na portalach internetowych lub w grupach sprzedażowych.</li>
+	<li>Zyskasz gwarancję odbioru całego zaakceptowanego przez nas zbioru, przez co sprzedaż nawet kilkaset książek w jeden dzień!</li>
+	<li>Podarujesz literaturze nowe życie i zadbasz o redukcję odpadów, przez co odciążysz planetę.</li>
 </ul>
 </div>
 <!-- Added Section -->
