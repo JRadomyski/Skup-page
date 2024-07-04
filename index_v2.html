@@ -1,0 +1,549 @@
+<style type="text/css">body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+/* Style dla sekcji kontaktów */
+.contact-locations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Responsywność dla ekranów mniejszych niż 768px */
+@media (max-width: 768px) {
+    .contact-locations {
+        flex-direction: column;
+    }
+
+    .contact-links {
+        margin-bottom: 20px;
+    }
+}
+
+/* Dodatkowe style dla przycisków i list */
+button {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* Style dla sekcji z informacjami i cenami */
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.info-block {
+    flex: 1 1 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ff6600;
+    text-align: center;
+}
+
+/* Style dla obrazków */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style dla obszarów z tekstami i nagłówkami */
+.text-section {
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Dodatkowe style */
+.orange-background {
+    background-color: #ff6600;
+    color: white;
+    padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+.flex-container .text {
+    flex: 1;
+    padding: 10px;
+}
+
+.flex-container .image {
+    flex: 1;
+    padding: 10px;
+}
+</style>
+<div style="padding: 20px; font-family: Arial, sans-serif;">
+<h1>Skup książek stacjonarny i online – Tezeusz.pl</h1>
+
+<h2 style="color: #ff6600;"><strong>Skup książek stacjonarny i online Tezeusz</strong></h2>
+
+<p><strong>Sprzedaj </strong>nam zbędne książki. <strong>Zyskaj przestrzeń</strong> na półkach i dodatkowe <strong>pieniądze.</strong></p>
+
+<h2 style="color: rgb(255, 102, 0);"><strong>Jak wymienić niepotrzebne książki na złotówki?</strong></h2>
+
+<ul>
+<li>Masz <strong>mniej niż 50 książek</strong> spełniających nasze kryteria – wejdź na <a href="http://www.skupksiazek.pl" style="color: #ff6600;">www.skupksiazek.pl</a></li>
+<li>Ty (lub Twoja instytucja – biblioteka, księgarnia, parafia) masz ponad 50 książek spełniających nasze kryteria?</li>
+</ul>
+
+<hr />
+<h2><strong>Zamów wycenę i odbiór!</strong></h2>
+
+<h2><strong><span style="color:#ff8235;">Zadzwoń do skupu regionalnego lub wyślij e-mail zawierający Twój numer telefonu i liczbę książek.</span></strong></h2>
+
+<div class="contact-locations">
+<div class="contact-links">
+<p><strong>Białystok</strong> – tel. 532 399 640, e-mail: bialoleka@skupksiazek.pl</p>
+
+<p><strong>Bydgoszcz</strong> – 728 809 171, e-mail: gdansk@skupksiazek.pl</p>
+
+<p><strong>Gdańsk</strong> – 728 809 171, e-mail: gdansk@skupksiazek.pl</p>
+
+<p><strong>Katowice</strong> – tel. 698 110 410, e-mail: katowice@skupksiazek.pl</p>
+
+<p><strong>Kielce</strong> – tel. 698 110 410, e-mail: krakow@skupksiazek.pl</p>
+
+<p><strong>Kraków</strong> – tel. 698 110 410, e-mail: krakow@skupksiazek.pl</p>
+
+<p><strong>Lublin</strong> – tel. 698 110 410, e-mail: krakow@skupksiazek.pl</p>
+
+<p><strong>Łódź</strong> – tel. 664 080 300, e-mail: wroclaw@skupksiazek.pl</p>
+
+<p><strong>Olsztyn</strong> – tel. 532 399 640, e-mail: bialoleka@skupksiazek.pl</p>
+
+<p><strong>Opole</strong> – tel. 664 080 300, e-mail: wroclaw@skupksiazek.pl</p>
+
+<p><strong>Poznań</strong> – tel. 664 080 300, e-mail: wroclaw@skupksiazek.pl</p>
+
+<p><strong>Rzeszów</strong> – tel. 532 399 640, e-mail: bialoleka@skupksiazek.pl</p>
+
+<p><strong>Szczecin</strong> – tel. 728 809 171, e-mail: gdansk@skupksiazek.pl</p>
+
+<p><strong>Toruń</strong> – tel. 728 809 171, e-mail: gdansk@skupksiazek.pl</p>
+
+<p><strong>Warszawa</strong> – tel. 532 399 640, e-mail: bialoleka@skupksiazek.pl</p>
+
+<p><strong>Wrocław</strong> – tel. 664 080 300, e-mail: wroclaw@skupksiazek.pl</p>
+
+<p><strong>Zielona Góra</strong> – tel. 664 080 300, e-mail: wroclaw@skupksiazek.pl</p>
+</div>
+
+<div>
+<h2><strong><span style="color:#ff8235;">Możesz też od razu przyjechać do jednego z naszych punktów stacjonarnych:</span></strong></h2>
+<img alt="" src="https://static2.tezeusz.pl/media/0001/01/707c273394363aa3a24c586752796b4b9794ee12.png" style="width: 702px; height: 650px;" /></div>
+</div>
+</div>
+<!-- Second Part Section -->
+
+<div style="padding: 20px; font-family: Arial, sans-serif;">
+<h2>Daj swoim książkom nowe życie!</h2>
+
+<p style="color: #ff6600;">Zyskaj dodatkowe pieniądze i uwolnij miejsce na półkach.</p>
+
+<p>Sprzedaj książki w skupie Tezeusza!</p>
+
+<div style="display: flex; justify-content: space-between; max-width: 600px;">
+<div style="border: 1px solid #ff6600; padding: 10px; text-align: center;">1. Skontaktuj się ze skupem regionalnym</div>
+
+<div style="border: 1px solid #ff6600; padding: 10px; text-align: center;">2. Zamów bezpłatną wycenę i odbiór</div>
+
+<div style="border: 1px solid #ff6600; padding: 10px; text-align: center;">3. Przyjmij gotówkę za zbędne książki</div>
+</div>
+<button style="background-color: #ff6600; color: white; padding: 10px 20px; margin-top: 10px; border: none;">Sprzedaj książki</button></div>
+
+<div style="padding: 20px; font-family: Arial, sans-serif;">
+<h3>Niechciane książki kurzą się na półkach i zajmują cenne miejsce?</h3>
+
+<p>Na Twoich regałach stoją dziesiątki pozycji literatury, niektóre ludzką ręką od wielu miesięcy, a nawet lat? Zajmują przestrzeń i zbierają na sobie coraz to nowe milimetry kurzu?</p>
+
+<p>Tak naprawdę są już zupełnie niepotrzebne, ale... szkoda Ci je wyrzucić?</p>
+
+<p>A może otrzymałeś(aś) duży księgozbiór w spadku lub pracujesz w instytucji, która potrzebuje wyprzedać swoje zbiory?</p>
+
+<p>To nie są przypadkowe zdania dla Ciebie przygotowaliśmy!</p>
+</div>
+
+<div style="padding: 20px; font-family: Arial, sans-serif;">
+<h3 style="color: #ff6600;">Skorzystaj ze skupu Tezeusza i daj książkom nowe życie</h3>
+
+<p>Posiadasz zbędne książki i chcesz wymienić je na gotówkę?</p>
+
+<p>Jesteś we właściwym miejscu, by szybko i sprawnie zamówić odbiór niechcianych tomów i otrzymać pieniądze do ręki - nawet w ciągu 24 godzin!</p>
+</div>
+
+<div style="padding: 20px; font-family: Arial, sans-serif;">
+<h3>Skupujemy książki od osób prywatnych, firm i instytucji</h3>
+
+<p>Wejdź na <a href="http://www.skupksiazek.pl" style="color: #ff6600;">www.skupksiazek.pl</a> i wyślij książki samodzielnie.</p>
+</div>
+
+<div style="padding: 20px; font-family: Arial, sans-serif;">
+<h3 style="color: #ff6600;">Sprzedaż książki w 5 prostych krokach:</h3>
+
+<div style="display: flex; justify-content: space-between; max-width: 900px; text-align: center;">
+<div style="flex: 1; padding: 10px;">
+<div style="border: 1px solid #ff6600; border-radius: 50%; padding: 20px; margin: auto; width: 50px; height: 50px; line-height: 50px; background-color: #ff6600; color: white;">1</div>
+
+<p>Skontaktuj się ze skupem regionalnym</p>
+</div>
+
+<div style="flex: 1; padding: 10px;">
+<div style="border: 1px solid #ff6600; border-radius: 50%; padding: 20px; margin: auto; width: 50px; height: 50px; line-height: 50px; background-color: #ff6600; color: white;">2</div>
+
+<p>Zamów wycenę i odbiór zbioru</p>
+</div>
+
+<div style="flex: 1; padding: 10px;">
+<div style="border: 1px solid #ff6600; border-radius: 50%; padding: 20px; margin: auto; width: 50px; height: 50px; line-height: 50px; background-color: #ff6600; color: white;">3</div>
+
+<p>Oczekuj na naszego pracownika w umówionym terminie</p>
+</div>
+
+<div style="flex: 1; padding: 10px;">
+<div style="border: 1px solid #ff6600; border-radius: 50%; padding: 20px; margin: auto; width: 50px; height: 50px; line-height: 50px; background-color: #ff6600; color: white;">4</div>
+
+<p>Wydaj książki - nie musisz ich pakować ani wynosić</p>
+</div>
+
+<div style="flex: 1; padding: 10px;">
+<div style="border: 1px solid #ff6600; border-radius: 50%; padding: 20px; margin: auto; width: 50px; height: 50px; line-height: 50px; background-color: #ff6600; color: white;">5</div>
+
+<p>Odbierz gotówkę i ciesz się wolnym miejscem na półkach!</p>
+</div>
+</div>
+</div>
+<!-- Third Part Section -->
+
+<div style="padding: 20px; font-family: Arial, sans-serif;">
+<h3>Bezpłatnie dojeżdżamy do każdego miejsca w Polsce, pakujemy i wynosimy książki!</h3>
+<button style="background-color: #ff6600; color: white; padding: 10px 20px; border: none; margin: 10px 0;">Sprzedaj książki w skupie Tezeusza</button>
+
+<p>Spójrz, na jakich pozycjach zależy nam najbardziej:</p>
+
+<div style="display: flex; justify-content: space-between;">
+<div style="flex: 1; padding: 10px;">
+<h4>Książki powinny być suche i czyste. Najchętniej skupujemy pozycje o różnej tematyce:</h4>
+
+<ul style="list-style: none; padding: 0;">
+<li style="padding: 5px 0;"><span style="color: green;">✔</span> naukowe,</li>
+<li style="padding: 5px 0;"><span style="color: green;">✔</span> popularnonaukowe,</li>
+<li style="padding: 5px 0;"><span style="color: green;">✔</span> profesjonalne,</li>
+<li style="padding: 5px 0;"><span style="color: green;">✔</span> poradniki,</li>
+<li style="padding: 5px 0;"><span style="color: green;">✔</span> literaturę piękną,</li>
+<li style="padding: 5px 0;"><span style="color: green;">✔</span> komiksy,</li>
+<li style="padding: 5px 0;"><span style="color: green;">✔</span> aktualne podręczniki akademickie i do szkół średnich.</li>
+</ul>
+</div>
+
+<div style="flex: 1; padding: 10px;">
+<h4>Takich książek nie skupujemy:</h4>
+
+<ul style="list-style: none; padding: 0;">
+<li style="padding: 5px 0;"><span style="color: red;">✖</span> Podręczniki do gimnazjum i szkoły podstawowej,</li>
+<li style="padding: 5px 0;"><span style="color: red;">✖</span> Podręczniki do liceum i technikum wydane przed 2019 r. (wyjątek: podręczniki do liceum plastycznego),</li>
+<li style="padding: 5px 0;"><span style="color: red;">✖</span> Vademeca, repetytoria, maturalne karty pracy wydane przed 2019 r.,</li>
+<li style="padding: 5px 0;"><span style="color: red;">✖</span> Podręczniki szkolne do nauki języków obcych wydanych przed 2019 r. (wyjątek: książki do samodzielnej nauki),</li>
+<li style="padding: 5px 0;"><span style="color: red;">✖</span> Podręczniki szkolne przeznaczone dla nauczycieli (z odpowiedziami),</li>
+<li style="padding: 5px 0;"><span style="color: red;">✖</span> Kodeksy prawne, ustawy, komentarze do zmienionych rok wstecz (wyjątek: prawo kanoniczne, prawo rzymskie, antyki),</li>
+<li style="padding: 5px 0;"><span style="color: red;">✖</span> Nieaktualowane płyty CD, DVD, winylowe,</li>
+<li style="padding: 5px 0;"><span style="color: red;">✖</span> Książki pisane alfabetem Braille'a,</li>
+<li style="padding: 5px 0;"><span style="color: red;">✖</span> Książki z wyraźnymi śladami zniszczenia,</li>
+<li style="padding: 5px 0;"><span style="color: red;">✖</span> Gazety, czasopisma i katalogi.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div style="padding: 20px; font-family: Arial, sans-serif;">
+<h2><strong>Zamów szybką i sprawną wycenę książek z odbiorem i gotówką do ręki!</strong></h2>
+
+<div class="flex-container">
+<div class="text orange-background">
+<h2 style="text-align: center;"><span style="font-size:36px;"><strong>Dojeżdżamy bezpłatnie do każdej miejscowości w Polsce!</strong> </span></h2>
+</div>
+
+<div class="image"><img alt="" src="https://static2.tezeusz.pl/media/0001/01/49c2bc3ef64fd0a74f7c6eb3475ac8df9f87b35a.jpeg" /></div>
+</div>
+</div>
+<!-- Fifth Part Section -->
+
+<div style="padding: 20px; font-family: Arial, sans-serif;">
+<h3>Dlaczego warto sprzedać swoje książki właśnie nam?</h3>
+
+<p>Tezeusz to największy i najnowocześniejszy antykwariat i księgarnia w Polsce. To także niezwykłe miejsce powstałe z miłości do literatury. Każdego dnia kupujemy książki od osób takich jak Ty, aby dać im drugie życie i przekazać je w ręce poszukiwaczy konkretnych tytułów i pozycji.</p>
+
+<p>Przez lata działalności kupiliśmy miliony książek, które przeszły przez ręce naszych specjalistów. Skontaktuj się z nami i opowiedz o swoich zbiorach, a jeden z pracowników przyjedzie po Twoje książki w umówionym terminie.</p>
+
+<p>Zabierzemy cały księgozbiór naraz, dzięki czemu oszczędzisz czas i energię, nie musząc wystawiać dziesiątek ogłoszeń na portalach internetowych. A gotówkę za książki dostaniesz do ręki.</p>
+
+<p>Selekcja i wycena zbioru odbywa się na miejscu, a podczas rozmowy ze specjalistą możesz liczyć na klarowne informacje o kryteriach i zasadach skupu.</p>
+</div>
+
+<div style="padding: 20px; font-family: Arial, sans-serif;">
+<h3>Zobacz, co mówią o nas klienci</h3>
+
+<div style="display: flex; justify-content: space-between;">
+<div style="flex: 1; padding: 10px;">
+<p><strong>5 tygodni temu</strong></p>
+
+<p>Wystawiłam ogłoszenie o sprzedaży kilku cennych książek, które kupiłam w zeszłym roku. Jestem bardzo zadowolona z usługi Tezeusza, zwłaszcza z szybkiej wyceny i płatności. Polecam!</p>
+</div>
+
+<div style="flex: 1; padding: 10px;">
+<p><strong>2 tygodnie temu</strong></p>
+
+<p>Fantastyczna firma! Można oddać stare książki, których się już nie czyta i otrzymać za to całkiem niezłe pieniądze. Dziękuję i gratuluję!</p>
+</div>
+
+<div style="flex: 1; padding: 10px;">
+<p><strong>1 tydzień temu</strong></p>
+
+<p>Przyszedłem do Tezeusza z wielkim zapasem książek. Kontakt z firmą był bardzo profesjonalny i cała operacja przebiegła szybko i sprawnie. Bardzo polecam!</p>
+</div>
+</div>
+</div>
+
+<div style="padding: 20px; font-family: Arial, sans-serif;">
+<h3>Masz naszą gwarancję!</h3>
+
+<p>Wystawiając pojedyncze książki na sprzedaż przez internet, nigdy nie masz pewności, czy Twój wysiłek faktycznie Ci się opłaci.</p>
+
+<p>Zamawiając wycenę i odbiór książek w Tezeuszu, masz naszą gwarancję, że po zaakceptowaniu listy tytułów przyjedziemy w umówionym terminie i odbierzemy cały zbiór podczas jednego spotkania.</p>
+</div>
+
+<div style="padding: 20px; font-family: Arial, sans-serif;">
+<h3>Sprzedaj niepotrzebne książki w skupie Tezeusza, a dzięki temu...</h3>
+
+<ul style="list-style-type: disc; padding-left: 20px;">
+<li>Za każdą książkę spełniającą nasze warunki otrzymasz od kilku do kilkudziesięciu złotych (kwotę za cenniejsze pozycje omówimy osobno) i zasilisz domowy budżet.</li>
+<li>Szybko i sprawnie zmonetyzujesz zbiory instytucji, którą reprezentujesz.</li>
+<li>Pozbędziesz się „łapaczy kurzu” i zwolnisz miejsce na regałach.</li>
+<li>Uporządkujesz swój księgozbiór i zyskasz przestrzeń na nowe tytuły.</li>
+<li>Zdecydujesz kilkadziesiąt godzin potrzebnych na sfotografowanie i opisanie książek oraz wystawienie ogłoszeń na portalach internetowych lub w grupach sprzedażowych.</li>
+<li>Zyskasz gwarancję odbioru całego zaakceptowanego przez nas zbioru, przez co sprzedaż nawet kilkaset książek w jeden dzień!</li>
+<li>Podarujesz literaturze nowe życie i zadbasz o redukcję odpadów, przez co odciążysz planetę.</li>
+</ul>
+</div>
+
+<div style="padding: 20px; font-family: Arial, sans-serif;">
+<h3>Często zadawane pytania</h3>
+
+<p><strong>Czy skup książek Tezeusza to na pewno coś dla mnie?</strong></p>
+
+<p>Jeśli masz na sprzedaż zbędne książki: naukowe, popularnonaukowe, poradniki, aktualne podręczniki akademickie lub do szkół średnich albo literaturę piękną i chcesz szybko sfinalizować transakcję, to TAK, nasz skup jest dla Ciebie doskonałym wyborem.</p>
+
+<p>To także świetna opcja dla tych, którzy chcą dać nieczytanym już książkom drugie życie i wysłać je dalej w świat, zamiast wyrzucać na makulaturę.</p>
+
+<p>Skupujemy książki od osób prywatnych, instytucji, firm i bibliotek.</p>
+
+<p><strong>Mam mniej niż 50 książek. Jak mogę Wam je sprzedać?</strong></p>
+
+<p>Jeśli masz mniej niż 50 książek spełniających nasze warunki (czyste, suche książki należące do wymienionych powyżej kategorii), skorzystaj z automatycznego skupu na <a href="http://www.skupksiazek.pl" style="color: #ff6600;">www.skupksiazek.pl</a>.</p>
+
+<p><strong>Mam więcej niż 50 książek. Jak mogę zamówić wycenę i odbiór?</strong></p>
+
+<p>Jeśli jesteś klientem indywidualnym i masz więcej niż 50 książek, skontaktuj się z najbliższym skupem regionalnym. Opowiedz nam, jakie pozycje posiadasz w swoim zbiorze, a my wycenimy je dla Ciebie. Bezpłatnie przyjedziemy do każdej miejscowości w Polsce, nawet w ciągu 24 godzin od Twojego telefonu lub maila. Spakujemy i wyniesiemy książki, a Ty otrzymasz gotówkę od ręki.</p>
+
+<p><strong>Moja instytucja ma na sprzedaż większy księgozbiór. Jak mogę zamówić wycenę i odbiór?</strong></p>
+
+<p>Jeśli Twoja instytucja, np. biblioteka, księgarnia czy parafia, ma na sprzedaż duże zbiory – najczęściej jest to kilkaset pozycji – skontaktuj się z najbliższym skupem regionalnym. Wycena i odbiór księgozbiorów przeprowadzany jest na podstawie katalogu lub listy albo podczas spotkania w skupie stacjonarnym bądź pod podanym przez Ciebie adresem.</p>
+
+<p><strong>Ile trwa cały proces od A do Z?</strong></p>
+
+<p>Wycena i sprzedaż Twojego zbioru może zająć nawet 24 godziny! Nasz samoobsługowy serwis <a href="http://www.skupksiazek.pl" style="color: #ff6600;">www.skupksiazek.pl</a> jest dostępny całodobowo, dzięki czemu możesz zająć się szybką sprzedażą swoich książek o każdej porze i na co dzień.</p>
+
+<p><strong>Czy dostanę za moje książki kwotę, która widnieje na okładce?</strong></p>
+
+<p>Za jedną książkę otrzymasz od kilku do kilkudziesięciu złotych. Jeśli masz w swoich zbiorach rzadkie i cenne okazy, wynegocjujemy satysfakcjonującą Cię cenę.</p>
+
+<p><strong>Mieszkam na wsi. Czy na pewno dojedziecie do mojej miejscowości?</strong></p>
+
+<p>Zależy nam na tym, aby Twoje książki znalazły się na tezeuszowych półkach. Dlatego jeśli posiadasz księgozbiór spełniający nasze warunki, to nie wahaj się dłużej, tylko odezwij się do Twojego punktu regionalnego, aby zamówić wycenę i odbiór. Dojeżdżamy po książki bezpłatnie do każdej miejscowości w Polsce.</p>
+
+<p><strong>Czy muszę zapakować książki samodzielnie?</strong></p>
+
+<p>Jeśli masz na sprzedaż niewielki księgozbiór i użyjesz serwisu <a href="http://www.skupksiazek.pl" style="color: #ff6600;">www.skupksiazek.pl</a>, to tak, książki trzeba będzie zapakować i wydać kurierowi lub włożyć do paczkomatu – wysyłka odbywa się na nasz koszt. W przypadku większych zbiorów (powyżej 50 pozycji spełniających nasze warunki) przyjedziemy do Ciebie, aby bezpłatnie zapakować i zabrać książki. Twoim jedynym zadaniem będzie przyjęcie od nas gotówki prosto do ręki i cieszyć się, że Twoje zbiory zyskały nowe życie.</p>
+</div>
+
+<div style="padding: 20px; font-family: Arial, sans-serif;">
+<h3>Masz inne pytanie?</h3>
+
+<p>Zadzwoń: <strong>883 946 389</strong></p>
+
+<p>Infolinia jest czynna od poniedziałku do piątku w godz. 8:00-16:00.</p>
+<button style="background-color: #ff6600; color: white; padding: 10px 20px; border: none; margin-top: 10px;">Wszystko już wiem! Sprzedaję książki</button></div>
+<!-- Fifth Part Section -->
+
+<div style="padding: 20px; font-family: Arial, sans-serif;">
+<h3>Dlaczego warto sprzedać swoje książki właśnie nam?</h3>
+
+<p>Tezeusz to największy i najnowocześniejszy antykwariat i księgarnia w Polsce. To także niezwykłe miejsce powstałe z miłości do literatury. Każdego dnia kupujemy książki od osób takich jak Ty, aby dać im drugie życie i przekazać je w ręce poszukiwaczy konkretnych tytułów i pozycji.</p>
+
+<p>Przez lata działalności kupiliśmy miliony książek, które przeszły przez ręce naszych specjalistów. Skontaktuj się z nami i opowiedz o swoich zbiorach, a jeden z pracowników przyjedzie po Twoje książki w umówionym terminie.</p>
+
+<p>Zabierzemy cały księgozbiór naraz, dzięki czemu oszczędzisz czas i energię, nie musząc wystawiać dziesiątek ogłoszeń na portalach internetowych. A gotówkę za książki dostaniesz do ręki.</p>
+
+<p>Selekcja i wycena zbioru odbywa się na miejscu, a podczas rozmowy ze specjalistą możesz liczyć na klarowne informacje o kryteriach i zasadach skupu.</p>
+</div>
+
+<div style="padding: 20px; font-family: Arial, sans-serif;">
+<h3>Zobacz, co mówią o nas klienci</h3>
+
+<div style="display: flex; justify-content: space-between;">
+<div style="flex: 1; padding: 10px;">
+<p><strong>5 tygodni temu</strong></p>
+
+<p>Wystawiłam ogłoszenie o sprzedaży kilku cennych książek, które kupiłam w zeszłym roku. Jestem bardzo zadowolona z usługi Tezeusza, zwłaszcza z szybkiej wyceny i płatności. Polecam!</p>
+</div>
+
+<div style="flex: 1; padding: 10px;">
+<p><strong>2 tygodnie temu</strong></p>
+
+<p>Fantastyczna firma! Można oddać stare książki, których się już nie czyta i otrzymać za to całkiem niezłe pieniądze. Dziękuję i gratuluję!</p>
+</div>
+
+<div style="flex: 1; padding: 10px;">
+<p><strong>1 tydzień temu</strong></p>
+
+<p>Przyszedłem do Tezeusza z wielkim zapasem książek. Kontakt z firmą był bardzo profesjonalny i cała operacja przebiegła szybko i sprawnie. Bardzo polecam!</p>
+</div>
+</div>
+</div>
+
+<div style="padding: 20px; font-family: Arial, sans-serif;">
+<h3>Masz naszą gwarancję!</h3>
+
+<p>Wystawiając pojedyncze książki na sprzedaż przez internet, nigdy nie masz pewności, czy Twój wysiłek faktycznie Ci się opłaci.</p>
+
+<p>Zamawiając wycenę i odbiór książek w Tezeuszu, masz naszą gwarancję, że po zaakceptowaniu listy tytułów przyjedziemy w umówionym terminie i odbierzemy cały zbiór podczas jednego spotkania.</p>
+</div>
+
+<div style="padding: 20px; font-family: Arial, sans-serif;">
+<h3>Sprzedaj niepotrzebne książki w skupie Tezeusza, a dzięki temu...</h3>
+
+<ul style="list-style-type: disc; padding-left: 20px;">
+<li>Za każdą książkę spełniającą nasze warunki otrzymasz od kilku do kilkudziesięciu złotych (kwotę za cenniejsze pozycje omówimy osobno) i zasilisz domowy budżet.</li>
+<li>Szybko i sprawnie zmonetyzujesz zbiory instytucji, którą reprezentujesz.</li>
+<li>Pozbędziesz się „łapaczy kurzu” i zwolnisz miejsce na regałach.</li>
+<li>Uporządkujesz swój księgozbiór i zyskasz przestrzeń na nowe tytuły.</li>
+<li>Zaoszczędzisz kilkadziesiąt godzin potrzebnych na sfotografowanie i opisanie książek oraz wystawienie ogłoszeń na portalach internetowych lub w grupach sprzedażowych.</li>
+<li>Zyskasz gwarancję odbioru całego zaakceptowanego przez nas zbioru, przez co sprzedaż nawet kilkaset książek w jeden dzień!</li>
+<li>Podarujesz literaturze nowe życie i zadbasz o redukcję odpadów, przez co odciążysz planetę.</li>
+</ul>
+</div>
+<!-- Added Section -->
+
+<div style="padding: 20px; font-family: Arial, sans-serif;">
+<div style="display: flex; justify-content: space-around; text-align: center; background-color: #f8f8f8; padding: 20px; border-radius: 8px;">
+<div style="flex: 1; padding: 10px;">
+<h4>&nbsp;</h4>
+
+<h4>Działamy na terenie całej Polski</h4>
+
+<p>Zadzwoń do nas, przyjdź do stacjonarnego antykwariatu lub napisz maila. Jesteśmy czynni od poniedziałku do piątku w godzinach 9-17</p>
+</div>
+
+<div style="flex: 1; padding: 10px;">
+<h4>&nbsp;</h4>
+
+<h4>Książki wycenimy na miejscu u Ciebie bądź zdalnie</h4>
+
+<p>Na podstawie przesłanej listy lub katalogu online.</p>
+</div>
+
+<div style="flex: 1; padding: 10px;">
+<h4>&nbsp;</h4>
+
+<h4>Dostosujemy się do Ciebie i Twojego kalendarza</h4>
+
+<p>Nasz specjalista przyjedzie dogodnym dla Ciebie terminie, nawet do 12 godzin od zgłoszenia!</p>
+</div>
+
+<div style="flex: 1; padding: 10px;">
+<h4>&nbsp;</h4>
+
+<h4>Płacimy gotówką od ręki.</h4>
+
+<p>Zrobimy wszystko za Ciebie! Dojazd i załadunek jest zawsze u nas darmowy i zbieramy wszystkie książki.</p>
+</div>
+</div>
+<button style="background-color: #ff6600; color: white; padding: 10px 20px; border: none; margin-top: 10px;">Sprzedaję moje książki!</button></div>
+
+<div style="padding: 20px; font-family: Arial, sans-serif;">
+<h3>Często zadawane pytania</h3>
+
+<p><strong>Czy skup książek Tezeusza to na pewno coś dla mnie?</strong></p>
+
+<p>Jeśli masz na sprzedaż zbędne książki: naukowe, popularnonaukowe, poradniki, aktualne podręczniki akademickie lub do szkół średnich albo literaturę piękną i chcesz szybko sfinalizować transakcję, to TAK, nasz skup jest dla Ciebie doskonałym wyborem.</p>
+
+<p>To także świetna opcja dla tych, którzy chcą dać nieczytanym już książkom drugie życie i wysłać je dalej w świat, zamiast wyrzucać na makulaturę.</p>
+
+<p>Skupujemy książki od osób prywatnych, instytucji, firm i bibliotek.</p>
+
+<p><strong>Mam mniej niż 50 książek. Jak mogę Wam je sprzedać?</strong></p>
+
+<p>Jeśli masz mniej niż 50 książek spełniających nasze warunki (czyste, suche książki należące do wymienionych powyżej kategorii), skorzystaj z automatycznego skupu na <a href="http://www.skupksiazek.pl" style="color: #ff6600;">www.skupksiazek.pl</a>.</p>
+
+<p><strong>Mam więcej niż 50 książek. Jak mogę zamówić wycenę i odbiór?</strong></p>
+
+<p>Jeśli jesteś klientem indywidualnym i masz więcej niż 50 książek, skontaktuj się z najbliższym skupem regionalnym. Opowiedz nam, jakie pozycje posiadasz w swoim zbiorze, a my wycenimy je dla Ciebie. Bezpłatnie przyjedziemy do każdej miejscowości w Polsce, nawet w ciągu 24 godzin od Twojego telefonu lub maila. Spakujemy i wyniesiemy książki, a Ty otrzymasz gotówkę od ręki.</p>
+
+<p><strong>Moja instytucja ma na sprzedaż większy księgozbiór. Jak mogę zamówić wycenę i odbiór?</strong></p>
+
+<p>Jeśli Twoja instytucja, np. biblioteka, księgarnia czy parafia, ma na sprzedaż duże zbiory – najczęściej jest to kilkaset pozycji – skontaktuj się z najbliższym skupem regionalnym. Wycena i odbiór księgozbiorów przeprowadzany jest na podstawie katalogu lub listy albo podczas spotkania w skupie stacjonarnym bądź pod podanym przez Ciebie adresem.</p>
+
+<p><strong>Ile trwa cały proces od A do Z?</strong></p>
+
+<p>Wycena i sprzedaż Twojego zbioru może zająć nawet 24 godziny! Nasz samoobsługowy serwis <a href="http://www.skupksiazek.pl" style="color: #ff6600;">www.skupksiazek.pl</a> jest dostępny całodobowo, dzięki czemu możesz zająć się szybką sprzedażą swoich książek o każdej porze i na co dzień.</p>
+
+<p><strong>Czy dostanę za moje książki kwotę, która widnieje na okładce?</strong></p>
+
+<p>Za jedną książkę otrzymasz od kilku do kilkudziesięciu złotych. Jeśli masz w swoich zbiorach rzadkie i cenne okazy, wynegocjujemy satysfakcjonującą Cię cenę.</p>
+
+<p><strong>Mieszkam na wsi. Czy na pewno dojedziecie do mojej miejscowości?</strong></p>
+
+<p>Zależy nam na tym, aby Twoje książki znalazły się na tezeuszowych półkach. Dlatego jeśli posiadasz księgozbiór spełniający nasze warunki, to nie wahaj się dłużej, tylko odezwij się do Twojego punktu regionalnego, aby zamówić wycenę i odbiór. Dojeżdżamy po książki bezpłatnie do każdej miejscowości w Polsce.</p>
+
+<p><strong>Czy muszę zapakować książki samodzielnie?</strong></p>
+
+<p>Jeśli masz na sprzedaż niewielki księgozbiór i użyjesz serwisu <a href="http://www.skupksiazek.pl" style="color: #ff6600;">www.skupksiazek.pl</a>, to tak, książki trzeba będzie zapakować i wydać kurierowi lub włożyć do paczkomatu – wysyłka odbywa się na nasz koszt. W przypadku większych zbiorów (powyżej 50 pozycji spełniających nasze warunki) przyjedziemy do Ciebie, aby bezpłatnie zapakować i zabrać książki. Twoim jedynym zadaniem będzie przyjęcie od nas gotówki prosto do ręki i cieszyć się, że Twoje zbiory zyskały nowe życie.</p>
+</div>
+
+<div style="padding: 20px; font-family: Arial, sans-serif;">
+<h3>Masz inne pytanie?</h3>
+
+<p>Zadzwoń: <strong>883 946 389</strong></p>
+
+<p>Infolinia jest czynna od poniedziałku do piątku w godz. 8:00-16:00.</p>
+<button style="background-color: #ff6600; color: white; padding: 10px 20px; border: none; margin-top: 10px;">Wszystko już wiem! Sprzedaję książki</button></div>
+<lt-toolbar contenteditable="false" data-lt-adjust-appearance="true" data-lt-force-appearance="light" style="display: none;"><lt-div class="lt-toolbar__wrapper lt-toolbar--small lt-toolbar__wrapper--hide" style="left: 194px; position: absolute !important; top: 6388px !important; bottom: auto !important; z-index: auto;"><lt-div class="lt-toolbar__extras"><lt-span class="lt-toolbar__disable-icon"><lt-comp-icon class="lt-icon--disable lt-icon--clickable" data-lt-prevent-focus="true"><lt-span class="lt-icon__icon lt-icon__disable"></lt-span></lt-comp-icon></lt-span><lt-div class="lt-toolbar__divider"></lt-div><lt-div class="lt-toolbar__premium-icon"></lt-div><lt-span class="lt-toolbar__rephrasing-icon lt-toolbar__rephrasing-icon--hidden"><lt-comp-icon class="lt-icon--rephrasing lt-icon--clickable" data-lt-prevent-focus="true"><lt-span class="lt-icon__icon lt-icon__rephrasing"></lt-span></lt-comp-icon></lt-span><lt-span class="lt-toolbar__rephrasing-icon lt-toolbar__rephrasing-icon--disabled"><lt-comp-icon class="lt-icon--rephrasing lt-icon--clickable" data-lt-prevent-focus="true"><lt-span class="lt-icon__icon lt-icon__rephrasing"></lt-span></lt-comp-icon></lt-span></lt-div><lt-div class="lt-toolbar__status-icon lt-toolbar__status-icon--has-no-errors" title=""></lt-div><lt-div class="lt-toolbar__premium-icon-dot lt-toolbar__premium-icon-dot--has-notification"></lt-div></lt-div></lt-toolbar><lt-toolbar contenteditable="false" data-lt-adjust-appearance="true" data-lt-force-appearance="light" style="display: none;"><lt-div class="lt-toolbar__wrapper lt-toolbar__wrapper--hide"><lt-div class="lt-toolbar__extras"><lt-span class="lt-toolbar__disable-icon"><lt-comp-icon class="lt-icon--disable lt-icon--clickable" data-lt-prevent-focus="true"><lt-span class="lt-icon__icon lt-icon__disable"></lt-span></lt-comp-icon></lt-span><lt-div class="lt-toolbar__divider"></lt-div><lt-div class="lt-toolbar__premium-icon"></lt-div><lt-span class="lt-toolbar__rephrasing-icon lt-toolbar__rephrasing-icon--hidden"><lt-comp-icon class="lt-icon--rephrasing lt-icon--clickable" data-lt-prevent-focus="true"><lt-span class="lt-icon__icon lt-icon__rephrasing"></lt-span></lt-comp-icon></lt-span><lt-span class="lt-toolbar__rephrasing-icon lt-toolbar__rephrasing-icon--disabled"><lt-comp-icon class="lt-icon--rephrasing lt-icon--clickable" data-lt-prevent-focus="true"><lt-span class="lt-icon__icon lt-icon__rephrasing"></lt-span></lt-comp-icon></lt-span></lt-div><lt-div class="lt-toolbar__status-icon lt-toolbar__status-icon--has-errors lt-toolbar__status-icon--has-1-errors" title=""></lt-div><lt-div class="lt-toolbar__premium-icon-dot lt-toolbar__premium-icon-dot--has-notification"></lt-div></lt-div></lt-toolbar>
