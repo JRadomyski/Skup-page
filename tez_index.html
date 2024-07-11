@@ -847,24 +847,86 @@
         </div> -->
 
         <style>
-          .is-section h1, .is-section h2, .is-section  h3, .is-section  h4, .is-section  h5, .is-section  p, .is-section  strong {
+          .is-section h1,
+          .is-section h2,
+          .is-section h3,
+          .is-section h4,
+          .is-section h5,
+          .is-section p,
+          .is-section strong {
             padding-top: 0.5rem !important;
           }
 
-          .is-section p, .is-section  ul {
-            font-size: large !important;
+          .is-section p,
+          .is-section ul {
+            font-size: x-large;
           }
+
+          .is-section ol,
+          .is-section ul {
+            float: unset;
+          }
+
+          .is-section .__btn__wrap {
+            padding: 1.5rem 0;
+          }
+
+          .is-section .__btn__orange {
+            background-color: #f37431;
+            color: #ffffff;
+            border-radius: 2rem;
+            border: 1px #f37431;
+            padding: 0.7rem 1.5rem;
+            margin: 1rem 0;
+            text-decoration: unset;
+            font-size: x-large;
+          }
+
+          .is-section .__bg__orange {
+            background-color: #f37431;
+            /* max-height: 100%;
+            height: 100%;
+            padding: 8.5rem 0 !important; */
+            margin-bottom: 0.5rem;
+
+            width: 100%; /* Ensures the div takes up 100% of the parent div's width */
+            height: 100%; /* Ensures the div takes up 100% of the parent div's height */
+            box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+          }
+
+          .is-section .__bg__orange h2 {
+            margin: 0;
+            color: #ffffff;
+            padding: 1rem;
+          }
+
+          .is-section .__two__col {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            text-align: center;
+            /* background-color: #f37431;
+            background-position: 25% 75%;
+            background-size: contain;
+            background-repeat: no-repeat; */
+          }
+
           .hr-space {
-            padding: 2rem 0;
+            padding: 1rem 0;
           }
 
           hr {
-            margin: 1.5rem 0;
+            margin: 1rem 0;
           }
-          .is-section  img {
-            max-width: 100% ;
+          .is-section img {
+            max-width: 100%;
           }
 
+          @media (max-width: 1020px) {
+            .is-section .__two__col {
+              flex-direction: column;
+            }
+          }
         </style>
 
         <div class="is-container">
@@ -1041,18 +1103,32 @@
               >
             </h2>
             <p><strong>Sprzedaj książki</strong> w skupie Tezeusza!</p>
-            <div>
-              <div>1. Skontaktuj się ze skupem regionalnym</div>
-              <div>2. Zamów bezpłatną wycenę i odbiór</div>
-              <div>3. Przyjmij gotówkę za zbędne książki</div>
+
+            <ul>
+              <ol>
+                1. Skontaktuj się ze skupem regionalnym
+              </ol>
+              <ol>
+                2. Zamów bezpłatną wycenę i odbiór
+              </ol>
+              <ol>
+                3. Przyjmij gotówkę za zbędne książki
+              </ol>
+            </ul>
+
+            <div></div>
+            <div class="__btn__wrap">
+              <a href="https://google.com" class="__btn__orange"
+                >Sprzedaj książki</a
+              >
             </div>
-            <button>Sprzedaj książki</button>
+          </div>
+
+          <div class="hr-space">
+            <hr />
           </div>
 
           <div>
-            <div class="hr-space">
-              <hr />
-            </div>
             <h2>
               <strong
                 >Niechciane książki kurzą się na półkach i zajmują cenne
@@ -1089,9 +1165,10 @@
               <strong>zamówić odbiór </strong>niechcianych tomów i otrzymać
               pieniądze do ręki - nawet w ciągu <strong>24 godzin!</strong>
             </p>
-            <div class="hr-space">
-            <hr />
           </div>
+
+          <div class="hr-space">
+            <hr />
           </div>
 
           <div>
@@ -1107,54 +1184,48 @@
             <p>albo:</p>
           </div>
 
-          <div >
+          <div>
             <h2><strong>Sprzedaj książki w 5 prostych krokach:</strong></h2>
-            <div>
-              <div>1</div>
-              <p><strong>Skontaktuj się ze skupem regionalnym</strong></p>
-            </div>
-            <div>
-              <div><strong>2</strong></div>
-              <p><strong>Zamów wycenę i odbiór zbioru</strong></p>
-            </div>
-            <div>
-              <div><strong>3</strong></div>
-              <p>
-                <strong
-                  >Oczekuj na naszego pracownika w umówionym terminie</strong
-                >
-              </p>
-            </div>
-            <div>
-              <div><strong>4</strong></div>
-              <p>
-                <strong
-                  >Wydaj książki - nie musisz ich pakować ani wynosić</strong
-                >
-              </p>
-            </div>
-            <div>
-              <div><strong>5</strong></div>
-              <p>
-                <strong
-                  >Odbierz gotówkę i ciesz się wolnym miejscem na
-                  półkach!</strong
-                >
-              </p>
-            </div>
+
+            <ul>
+              <ol>
+                1 Skontaktuj się ze skupem regionalnym
+              </ol>
+
+              <ol>
+                2 Zamów wycenę i odbiór zbioru
+              </ol>
+              <ol>
+                3 Oczekuj na naszego pracownika w umówionym terminie
+              </ol>
+
+              <ol>
+                4 Wydaj książki - nie musisz ich pakować ani wynosić
+              </ol>
+
+              <ol>
+                5 Odbierz gotówkę i ciesz się wolnym miejscem na półkach!
+              </ol>
+            </ul>
+          </div>
+
+          <div class="hr-space">
+            <hr />
           </div>
 
           <div>
-            <div class="hr-space">
-            <hr />
-          </div>
             <h2>
               <strong
                 >Bezpłatnie dojeżdżamy do każdego miejsca w Polsce, pakujemy i
                 wynosimy książki!</strong
               >
             </h2>
-            <button>Sprzedaj książki w skupie Tezeusza</button>
+
+            <div class="__btn__wrap">
+              <a href="https://google.com" class="__btn__orange"
+                >Sprzedaj książki w skupie Tezeusza</a
+              >
+            </div>
             <p>
               Spójrz, na jakich pozycjach
               <strong>zależy nam najbardziej:</strong>
@@ -1209,18 +1280,19 @@
             </div>
           </div>
 
-          <div>
-            <div class="hr-space">
+          <div class="hr-space">
             <hr />
           </div>
+
+          <div>
             <h2>
               <strong
                 >Zamów szybką i sprawną wycenę książek z odbiorem i gotówką do
                 ręki!</strong
               >
             </h2>
-            <div>
-              <div>
+            <div class="__two__col">
+              <div class="__bg__orange">
                 <h2>
                   <strong
                     >Dojeżdżamy bezpłatnie do każdej miejscowości w
@@ -1228,7 +1300,7 @@
                   >
                 </h2>
               </div>
-              <div class="col-md-12 col-xs-12">
+              <div class="col-md-6 col-xs-12">
                 <img
                   alt="Dostawca"
                   src="https://static2.tezeusz.pl/media/0001/01/49c2bc3ef64fd0a74f7c6eb3475ac8df9f87b35a.jpeg" />
@@ -1237,10 +1309,11 @@
           </div>
           <!-- Fifth Part Section -->
 
-          <div>
-            <div class="hr-space">
+          <div class="hr-space">
             <hr />
           </div>
+
+          <div>
             <h2><strong>Co zyskujesz:</strong></h2>
             <div>
               <div>
@@ -1295,10 +1368,11 @@
             </div>
           </div>
 
-          <div>
-            <div class="hr-space">
+          <div class="hr-space">
             <hr />
           </div>
+
+          <div>
             <h2><strong>Sprawdź, ile jest wart Twój księgozbiór</strong></h2>
             <p>
               Wycenimy Twoje książki na miejscu w skupie stacjonarnym lub
@@ -1311,8 +1385,8 @@
               Ty otrzymasz gotówkę do ręki.
             </p>
             <div class="hr-space">
-            <hr />
-          </div>
+              <hr />
+            </div>
           </div>
 
           <div>
@@ -1336,8 +1410,8 @@
             </p>
             <p>Wszystko załatwimy na <strong>jednym spotkaniu</strong>.</p>
             <div class="hr-space">
-            <hr />
-          </div>
+              <hr />
+            </div>
           </div>
 
           <div>
@@ -1353,13 +1427,18 @@
               godzin od kontaktu z nami. Wycenę otrzymasz od nas mailowo lub
               podczas spotkania w punkcie stacjonarnym.
             </p>
-            <button>Sprzedaż większych księgozbiorów</button>
+
+            <div class="__btn__wrap">
+              <a href="https://google.com" class="__btn__orange"
+                >Sprzedaż większych księgozbiorów</a
+              >
+            </div>
           </div>
 
           <div>
             <div class="hr-space">
-            <hr />
-          </div>
+              <hr />
+            </div>
             <h2>
               <strong
                 >Zastanawiasz się pewnie, ile pieniędzy dostaniesz za
@@ -1375,11 +1454,11 @@
               wartość negocjowana z Tobą satysfakcjonująco dla obu stron.
             </p>
             <div class="hr-space">
-            <hr />
-          </div>
+              <hr />
+            </div>
           </div>
 
-          <div >
+          <div>
             <h2>
               <strong
                 >Dlaczego warto sprzedać swoje książki właśnie nam?</strong
@@ -1413,8 +1492,8 @@
               >.
             </p>
             <div class="hr-space">
-            <hr />
-          </div>
+              <hr />
+            </div>
           </div>
 
           <div>
@@ -1428,8 +1507,8 @@
 
           <div>
             <div class="hr-space">
-            <hr />
-          </div>
+              <hr />
+            </div>
             <h2><strong>Masz naszą gwarancję!</strong></h2>
             <p>
               Wystawiając pojedyncze książki na sprzedaż przez internet, nigdy
@@ -1442,8 +1521,8 @@
               spotkania.
             </p>
             <div class="hr-space">
-            <hr />
-          </div>
+              <hr />
+            </div>
           </div>
 
           <div>
@@ -1524,13 +1603,17 @@
                 </p>
               </div>
             </div>
-            <button>Sprzedaję moje książki!</button>
+            <div class="__btn__wrap">
+              <a href="https://google.com" class="__btn__orange"
+                >Sprzedaję moje książki!</a
+              >
+            </div>
           </div>
 
           <div>
             <div class="hr-space">
-            <hr />
-          </div>
+              <hr />
+            </div>
             <h2><strong>Często zadawane pytania</strong></h2>
             <p>
               <strong
@@ -1645,7 +1728,12 @@
               Infolinia jest czynna od poniedziałku do piątku w godz.
               8:00-16:00.
             </p>
-            <button>Wszystko już wiem! Sprzedaję książki</button>
+
+            <div class="__btn__wrap">
+              <a href="https://google.com" class="__btn__orange"
+                >Wszystko już wiem! Sprzedaję książki</a
+              >
+            </div>
           </div>
         </div>
       </section>
