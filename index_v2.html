@@ -1,0 +1,783 @@
+<main>
+    <section class="is-section">
+    <style type="text/css">.is-section h1,
+              .is-section h2,
+              .is-section h3,
+              .is-section h4,
+              .is-section h5,
+              .is-section p,
+              .is-section strong {
+                padding-top: 0.5rem !important;
+              }
+    
+              h1 {
+                font-size: 2.2rem;
+                font-weight: bold;
+              }
+              h2 {
+                font-size: 1.2rem;
+                font-weight: bold;
+              }
+    
+              .orange-text {
+                color: #FF8235;
+              }
+    
+              .is-section p,
+              .is-section ul {
+                font-size: large;
+              }
+    
+              .is-section ol,
+              .is-section ul {
+                float: unset;
+              }
+    
+              .is-section .__btn__wrap {
+                padding: 1.5rem 0;
+              }
+    
+              .is-section .__btn__orange {
+                background-color: #f37431;
+                color: #ffffff;
+                border-radius: 2rem;
+                border: 1px #f37431;
+                padding: 0.7rem 1.5rem;
+                margin: 1rem 0;
+                text-decoration: unset;
+              }
+    
+              .is-section .__bg__orange {
+                background-color: #f37431;
+                /* max-height: 100%;
+                height: 100%;
+                padding: 8.5rem 0 !important; */
+                margin-bottom: 0.5rem;
+    
+                width: 100%; /* Ensures the div takes up 100% of the parent div's width */
+                height: 100%; /* Ensures the div takes up 100% of the parent div's height */
+                box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+              }
+    
+              .is-section .__bg__orange h2 {
+                margin: 0;
+                color: #ffffff;
+                padding: 1rem;
+              }
+    
+              .is-section .__two__col {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                text-align: center;
+                /* background-color: #f37431;
+                background-position: 25% 75%;
+                background-size: contain;
+                background-repeat: no-repeat; */
+              }
+    
+              .hr-space {
+                padding: 1rem 0;
+              }
+    
+              hr {
+                margin: 1rem 0;
+              }
+              .is-section img {
+                max-width: 100%;
+              }
+    
+              @media (max-width: 1020px) {
+                .is-section .__two__col {
+                  flex-direction: column;
+                }
+              }
+    
+              .container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+    
+            .places, .image {
+                flex: 1;
+                padding: 10px;
+            }
+    
+            @media (max-width: 1060px) {
+                .container {
+                    flex-direction: column;
+                }
+            }
+    
+            .image img {
+                max-width: 100%;
+                height: auto;
+            }
+    
+            .content {
+                display: flex;
+                justify-content: space-between;
+                gap: 20px;
+            }
+    
+            .content div {
+                flex: 1;
+            }
+    
+            .content h4 {
+                font-size: 1.5rem;
+                color: #333;
+                margin-bottom: 10px;
+            }
+    
+            .content ul {
+                list-style-type: none;
+                padding: 0;
+            }
+    
+            .content li {
+                margin: 5px 0;
+                padding-left: 20px;
+                position: relative;
+            }
+    
+            @media (max-width: 1024px) {
+                .content {
+                    flex-direction: column;
+                }
+            }
+    
+            .section h2 {
+                font-size: 24px;
+                color: #333;
+            }
+    
+            .section p {
+                font-size: 18px;
+                color: #333;
+            }
+    
+            .highlight {
+                color: #ff9800;
+            }
+    
+            .steps1 {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 20px;
+                margin: 20px 0;
+                list-style: none;
+            }
+    
+            .steps1 div {
+                border: 2px solid #ff9800;
+                padding: 10px;
+                border-radius: 5px;
+                flex: 1;
+                min-width: 200px;
+            }
+    
+            .steps1 {
+              text-align: center;
+            }
+            
+            .pros {
+              display: flex; 
+              justify-content: space-between; 
+              text-align: center; 
+              flex-wrap: wrap;
+            }
+    
+            @media (max-width: 1079px) {
+                .pros, .pros2 {
+                    flex-direction: column;
+                }
+                .pros > div {
+                  margin: 10px 0;
+                }
+    
+                .pros2-container { 
+                  padding: 10px 0;
+                }
+    
+                .pros-container, .pros2-container {
+                  margin: 20px;
+                }
+                .steps1 {
+                    flex-direction: column;
+                }
+                .steps1 > p {
+                    text-align: center;
+                    justify-content: center;
+                }
+            }
+            
+            .pros-container {
+              margin: 0 10px;
+              background: #F6F6F6;
+              flex: 1; 
+              padding: 10px; 
+              min-width: 150px;
+            }
+            
+            p.pros-text {
+              font-size: 1.2rem;
+            }
+    
+            h4.h4-pros {
+              font-size: 2rem;
+            }
+    
+            .pros2 {
+              margin-top: 5rem;
+              display: flex; 
+              justify-content: space-around; 
+              text-align: center; background-color: #f8f8f8; 
+              padding: 20px; 
+              border-radius: 8px; 
+              flex-wrap: wrap;
+            }
+    
+            .pros2-container {
+              flex: 1; 
+              padding: 10px; 
+              min-width: 150px;
+            }
+    
+            a.hreflink {
+                color: #333;
+            }
+    
+            .steps2 {
+              display: flex; 
+              justify-content: space-between; 
+              max-width: 900px; 
+              text-align: center;
+            }
+    
+            @media (max-width: 1079px) {
+                .steps2 {
+                  flex-direction: column;
+                }
+            }
+
+            .black-text {
+                text-decoration: none;
+                color: #000;
+              /* color: #000;
+              border: 1px lightblue;
+              background: lightblue;
+              padding: 1rem 2rem;
+              border-radius: 1rem; */
+              transition: color 0.3s ease;
+
+            }
+
+            .black-text:hover {
+                color: #f37431;
+            }
+            
+
+
+    </style>
+    <div class="is-container">
+    <div class="static-page-content">
+    <div class="static-page-content__row">
+    <div class="col-md-12 col-xs-12 static-page-content__title">
+    <h1>Skup książek stacjonarny i online – Tezeusz.pl</h1>
+    
+    <p><strong>Sprzedaj </strong>nam zbędne książki. <strong>Zyskaj przestrzeń</strong> na półkach i dodatkowe <strong>pieniądze.</strong></p>
+    </div>
+    </div>
+    
+    <h2 class="orange-text"><strong>Jak wymienić niepotrzebne książki na złotówki?</strong></h2>
+    
+    <ul>
+      <li>Masz <strong>mniej niż 50 książek</strong> spełniających <u>nasze kryteria</u> – wejdź na <a class="hreflink" href="www.skupksiazek.pl" rel="nofollow">www.skupksiazek.pl</a></li>
+      <li>Ty (lub Twoja instytucja – biblioteka, księgarnia, parafia) <strong>masz ponad 50 książek</strong> spełniających nasze kryteria?</li>
+    </ul>
+    
+    <div class="hr-space">
+    <hr /></div>
+    
+    <h2><strong>Zamów wycenę i odbiór!</strong></h2>
+    
+    <h2 class="orange-text"><strong>Zadzwoń do skupu regionalnego lub wyślij e-mail zawierający Twój numer telefonu i liczbę książek.</strong></h2>
+
+
+    <div class="loc">
+        <p class="special"><strong>Białystok</strong> – <a class="black-text" href="tel:532398640">📞 532 398 640</a>, <a class="black-text" href="mailto:bialoleka@skupksiazek.pl">📨 bialoleka@skupksiazek.pl</a></p>
+        
+        <p><strong>Bydgoszcz</strong> – <a class="black-text" href="tel:728809117">📞 728 809 117</a>, <a class="black-text" href="mailto:gdansk@skupksiazek.pl">📨 gdansk@skupksiazek.pl</a></p>
+        
+        <p><strong>Gdańsk</strong> – <a class="black-text" href="tel:728809117">📞 728 809 117</a>, <a class="black-text" href="mailto:gdansk@skupksiazek.pl">📨 gdansk@skupksiazek.pl</a></p>
+        
+        <p><strong>Katowice</strong> – <a class="black-text" href="tel:600548901">📞 600 548 901</a>, <a class="black-text" href="mailto:katowice@skupksiazek.pl">📨 katowice@skupksiazek.pl</a></p>
+        
+        <p><strong>Kielce</strong> – <a class="black-text" href="tel:698316300">📞 698 316 300</a>, <a class="black-text" href="mailto:krakow@skupksiazek.pl">📨 krakow@skupksiazek.pl</a></p>
+        
+        <p><strong>Kraków</strong> – <a class="black-text" href="tel:698316300">📞 698 316 300</a>, <a class="black-text" href="mailto:krakow@skupksiazek.pl">📨 krakow@skupksiazek.pl</a></p>
+        
+        <p><strong>Lublin</strong> – <a class="black-text" href="tel:532395008">📞 532 395 008</a>, <a class="black-text" href="mailto:lublin@skupksiazek.pl">📨 lublin@skupksiazek.pl</a></p>
+        
+        <p><strong>Łódź</strong> – <a class="black-text" href="tel:698110400">📞 698 110 400</a>, <a class="black-text" href="mailto:zoliborz@skupksiazek.pl">📨 zoliborz@skupksiazek.pl</a></p>
+        
+        <p><strong>Olsztyn</strong> – <a class="black-text" href="tel:728809117">📞 728 809 117</a>, <a class="black-text" href="mailto:gdansk@skupksiazek.pl">📨 gdansk@skupksiazek.pl</a></p>
+        
+        <p><strong>Opole</strong> – <a class="black-text" href="tel:664008300">📞 664 008 300</a>, <a class="black-text" href="mailto:wroclaw@skupksiazek.pl">📨 wroclaw@skupksiazek.pl</a></p>
+        
+        <p><strong>Poznań</strong> – <a class="black-text" href="tel:664734834">📞 664 734 834</a>, <a class="black-text" href="mailto:poznan@skupksiazek.pl">📨 poznan@skupksiazek.pl</a></p>
+        
+        <p><strong>Rzeszów</strong> – <a class="black-text" href="tel:698316300">📞 698 316 300</a>, <a class="black-text" href="mailto:krakow@skupksiazek.pl">📨 krakow@skupksiazek.pl</a></p>
+        
+        <p><strong>Szczecin</strong> – <a class="black-text" href="tel:532398279">📞 532 398 279</a>, <a class="black-text"href="mailto:szczecin@skupksiazek.pl">📨 szczecin@skupksiazek.pl</a></p>
+        
+        <p><strong>Toruń</strong> – <a class="black-text" href="tel:728809117">📞 728 809 117</a>, <a class="black-text" href="mailto:gdansk@skupksiazek.pl">📨 gdansk@skupksiazek.pl</a></p>
+        
+        <p><strong>Warszawa</strong> – woj. mazowieckie cz. lewobrzeżna - <a class="black-text" href="tel:698110400">📞 698 110 400</a>, <a class="black-text" href="mailto:zoliborz@skupksiazek.pl">📨 zoliborz@skupksiazek.pl</a></p>
+        
+        <p><strong>Warszawa</strong> – woj. mazowieckie, cz. prawobrzeżna - <a class="black-text" href="tel:532398640">📞 532 398 640</a>, <a class="black-text" href="mailto:bialoleka@skupksiazek.pl">📨 bialoleka@skupksiazek.pl</a></p>
+        
+        <p><strong>Wrocław</strong> – <a class="black-text" href="tel:664008300">📞 664 008 300</a>, <a class="black-text" href="mailto:wroclaw@skupksiazek.pl">📨 wroclaw@skupksiazek.pl</a></p>
+        
+        <p><strong>Zielona Góra</strong> – <a class="black-text" href="tel:664008300">📞 664 008 300</a>, <a class="black-text" href="mailto:wroclaw@skupksiazek.pl">📨 wroclaw@skupksiazek.pl</a></p>
+        
+    </div>
+    
+    <div class="container">
+
+
+
+    <div class="places">
+        
+
+
+
+
+
+        <p class="special"><strong>Białystok</strong> – <a class="black-text" href="tel:532398640">📞 532 398 640</a>, <a class="black-text" href="mailto:bialoleka@skupksiazek.pl">📨 bialoleka@skupksiazek.pl</a></p>
+        
+        <p><strong>Bydgoszcz</strong> – <a class="black-text" href="tel:728809117">📞 728 809 117</a>, <a class="black-text" href="mailto:gdansk@skupksiazek.pl">📨 gdansk@skupksiazek.pl</a></p>
+        
+        <p><strong>Gdańsk</strong> – <a class="black-text" href="tel:728809117">📞 728 809 117</a>, <a class="black-text" href="mailto:gdansk@skupksiazek.pl">📨 gdansk@skupksiazek.pl</a></p>
+        
+        <p><strong>Katowice</strong> – <a class="black-text" href="tel:600548901">📞 600 548 901</a>, <a class="black-text" href="mailto:katowice@skupksiazek.pl">📨 katowice@skupksiazek.pl</a></p>
+        
+        <p><strong>Kielce</strong> – <a class="black-text" href="tel:698316300">📞 698 316 300</a>, <a class="black-text" href="mailto:krakow@skupksiazek.pl">📨 krakow@skupksiazek.pl</a></p>
+        
+        <p><strong>Kraków</strong> – <a class="black-text" href="tel:698316300">📞 698 316 300</a>, <a class="black-text" href="mailto:krakow@skupksiazek.pl">📨 krakow@skupksiazek.pl</a></p>
+        
+        <p><strong>Lublin</strong> – <a class="black-text" href="tel:532395008">📞 532 395 008</a>, <a class="black-text" href="mailto:lublin@skupksiazek.pl">📨 lublin@skupksiazek.pl</a></p>
+        
+        <p><strong>Łódź</strong> – <a class="black-text" href="tel:698110400">📞 698 110 400</a>, <a class="black-text" href="mailto:zoliborz@skupksiazek.pl">📨 zoliborz@skupksiazek.pl</a></p>
+        
+        <p><strong>Olsztyn</strong> – <a class="black-text" href="tel:728809117">📞 728 809 117</a>, <a class="black-text" href="mailto:gdansk@skupksiazek.pl">📨 gdansk@skupksiazek.pl</a></p>
+        
+        <p><strong>Opole</strong> – <a class="black-text" href="tel:664008300">📞 664 008 300</a>, <a class="black-text" href="mailto:wroclaw@skupksiazek.pl">📨 wroclaw@skupksiazek.pl</a></p>
+        
+        <p><strong>Poznań</strong> – <a class="black-text" href="tel:664734834">📞 664 734 834</a>, <a class="black-text" href="mailto:poznan@skupksiazek.pl">📨 poznan@skupksiazek.pl</a></p>
+        
+        <p><strong>Rzeszów</strong> – <a class="black-text" href="tel:698316300">📞 698 316 300</a>, <a class="black-text" href="mailto:krakow@skupksiazek.pl">📨 krakow@skupksiazek.pl</a></p>
+        
+        <p><strong>Szczecin</strong> – <a class="black-text" href="tel:532398279">📞 532 398 279</a>, <a class="black-text"href="mailto:szczecin@skupksiazek.pl">📨 szczecin@skupksiazek.pl</a></p>
+        
+        <p><strong>Toruń</strong> – <a class="black-text" href="tel:728809117">📞 728 809 117</a>, <a class="black-text" href="mailto:gdansk@skupksiazek.pl">📨 gdansk@skupksiazek.pl</a></p>
+        
+        <p><strong>Warszawa</strong> – woj. mazowieckie cz. lewobrzeżna - <a class="black-text" href="tel:698110400">📞 698 110 400</a>, <a class="black-text" href="mailto:zoliborz@skupksiazek.pl">📨 zoliborz@skupksiazek.pl</a></p>
+        
+        <p><strong>Warszawa</strong> – woj. mazowieckie, cz. prawobrzeżna - <a class="black-text" href="tel:532398640">📞 532 398 640</a>, <a class="black-text" href="mailto:bialoleka@skupksiazek.pl">📨 bialoleka@skupksiazek.pl</a></p>
+        
+        <p><strong>Wrocław</strong> – <a class="black-text" href="tel:664008300">📞 664 008 300</a>, <a class="black-text" href="mailto:wroclaw@skupksiazek.pl">📨 wroclaw@skupksiazek.pl</a></p>
+        
+        <p><strong>Zielona Góra</strong> – <a class="black-text" href="tel:664008300">📞 664 008 300</a>, <a class="black-text" href="mailto:wroclaw@skupksiazek.pl">📨 wroclaw@skupksiazek.pl</a></p>
+
+    </div>
+
+    <div class="image">
+    <h2 class="orange-text"><strong>Możesz też od razu przyjechać do jednego z naszych punktów stacjonarnych:</strong></h2>
+    <img alt="Lokalizacje skupów" src="https://static2.tezeusz.pl/media/0001/01/707c273394363aa3a24c586752796b4b9794ee12.png" /></div>
+    </div>
+    <!-- Second Part Section -->
+    
+    <div class="section">
+    <h2><strong>Daj swoim książkom nowe życie!</strong></h2>
+    
+    <h2 class="orange-text"><strong class="orange-text">Zyskaj dodatkowe pieniądze i uwolnij miejsce na półkach.</strong></h2>
+    
+    <p><strong>Sprzedaj książki</strong> w skupie Tezeusza!</p>
+    
+    <div class="steps1">
+    <div>
+    <p>1. Skontaktuj się ze skupem regionalnym</p>
+    </div>
+    
+    <div>
+    <p>2. Zamów bezpłatną wycenę i odbiór</p>
+    </div>
+    
+    <div>
+    <p>3. Przyjmij gotówkę za zbędne książki</p>
+    </div>
+    </div>
+    
+    <div class="__btn__wrap"><a class="__btn__orange" href="https://skupksiazek.pl/" rel="nofollow">Sprzedaj książki</a></div>
+    </div>
+    
+    <div class="hr-space">
+    <hr /></div>
+    
+    <div>
+    <h2><strong>Niechciane książki kurzą się na półkach i zajmują cenne miejsce?</strong></h2>
+    
+    <p>Na Twoich regałach stoją <strong>dziesiątki pozycji</strong> literatury, niektóre ludzką ręką od wielu miesięcy, a nawet lat? Zajmują przestrzeń i zbierają na sobie <strong>coraz to nowe milimetry kurzu?</strong></p>
+    
+    <p>Tak naprawdę są już zupełnie niepotrzebne, ale... <strong>szkoda Ci je wyrzucić?</strong></p>
+    
+    <p>A może otrzymałeś(aś) duży księgozbiór w spadku lub <strong>pracujesz w instytucji</strong>, która potrzebuje <strong>wyprzedać swoje zbiory</strong>?</p>
+    
+    <p>To nie są przypadkowe zdania dla Ciebie przygotowaliśmy!</p>
+    
+    <h2><strong class="orange-text">Skorzystaj ze skupu Tezeusza i daj książkom nowe życie</strong></h2>
+    
+    <p>Posiadasz <strong>zbędne książki</strong> i chcesz <strong>wymienić je na gotówkę?</strong></p>
+    
+    <p>Jesteś we właściwym miejscu, by szybko i sprawnie <strong>zamówić odbiór </strong>niechcianych tomów i otrzymać pieniądze do ręki - nawet w ciągu <strong>24 godzin!</strong></p>
+    </div>
+    
+    <div class="hr-space">
+    <hr /></div>
+    
+    <div>
+    <h2><strong>Skupujemy książki od osób prywatnych, firm i instytucji</strong></h2>
+    
+    <p>Wejdź na <a class="hreflink" href="www.skupksiazek.pl" rel="nofollow">www.skupksiazek.pl </a>i wyślij książki <strong>samodzielnie</strong>.</p>
+    
+    <p>albo:</p>
+    </div>
+    
+    <div>
+    <h2><strong class="orange-text">Sprzedaj książki w 5 prostych krokach:</strong></h2>
+    
+    <div class="steps2">
+    <div style="flex: 1; padding: 10px;">
+    <p><img alt="" src="https://static2.tezeusz.pl/media/0001/01/9394b039466bdf2dbdc88dbea2cb8c19c525425e.png" style="width: 50px; height: 50px;" /></p>
+    
+    <p><strong>Skontaktuj się ze skupem regionalnym</strong></p>
+    </div>
+    
+    <div style="flex: 1; padding: 10px;">
+    <p><img alt="" src="https://static2.tezeusz.pl/media/0001/01/1cd443ee9560c897426bec999b038ec3282544de.png" style="width: 50px; height: 50px;" /></p>
+    
+    <p><strong>Zamów wycenę i odbiór zbioru</strong></p>
+    </div>
+    
+    <div style="flex: 1; padding: 10px;">
+    <p><img alt="" src="https://static2.tezeusz.pl/media/0001/01/c612c9d33d243d8a999f25e7fefd2e494533c86e.png" style="width: 50px; height: 50px;" /></p>
+    
+    <p><strong>Oczekuj na naszego pracownika w umówionym terminie</strong></p>
+    </div>
+    
+    <div style="flex: 1; padding: 10px;">
+    <p><img alt="" src="https://static2.tezeusz.pl/media/0001/01/6f00d353d70b3e893facb5dbf345c7d9c6450d2d.png" style="width: 50px; height: 50px;" /></p>
+    
+    <p><strong>Wydaj książki - nie musisz ich pakować ani wynosić</strong></p>
+    </div>
+    
+    <div style="flex: 1; padding: 10px;">
+    <p><img alt="" src="https://static2.tezeusz.pl/media/0001/01/389db6a253e1d93792cfb29b96017e9126cc6af7.png" style="width: 50px; height: 50px;" /></p>
+    
+    <p><strong>Odbierz gotówkę i ciesz się wolnym miejscem na półkach!</strong></p>
+    </div>
+    </div>
+    </div>
+    
+    <div class="hr-space">
+    <hr /></div>
+    
+    <div>
+    <div class="section">
+    <h2><strong>Bezpłatnie dojeżdżamy do każdego miejsca w Polsce, pakujemy i wynosimy książki!</strong></h2>
+    
+    <div class="__btn__wrap"><a class="__btn__orange" href="https://skupksiazek.pl/" rel="nofollow">Sprzedaj książki w skupie Tezeusza</a></div>
+    
+    <p>Spójrz, na jakich pozycjach <strong>zależy nam najbardziej:</strong></p>
+    
+    <div class="content">
+    <div>
+    <h4>Książki powinny być <strong>suche i czyste</strong>. Najchętniej skupujemy pozycje <strong>o różnej tematyce</strong>:</h4>
+    
+    <ul>
+      <li>✅ naukowe,</li>
+      <li>✅ popularnonaukowe,</li>
+      <li>✅ profesjonalne,</li>
+      <li>✅ poradniki,</li>
+      <li>✅ literaturę piękną,</li>
+      <li>✅ komiksy,</li>
+      <li>✅ aktualne podręczniki akademickie i do szkół średnich.</li>
+    </ul>
+    </div>
+    
+    <div>
+    <h4>Takich książek <strong>nie skupujemy</strong>:</h4>
+    
+    <ul>
+      <li>❌ Podręczniki do gimnazjum i szkoły podstawowej,</li>
+      <li>❌ Podręczniki do liceum i technikum wydane przed 2019 r. (wyjątek: podręczniki do liceum plastycznego),</li>
+      <li>❌ Vademeca, repetytoria, maturalne karty pracy wydane przed 2019 r.,</li>
+      <li>❌ Podręczniki szkolne do nauki języków obcych wydanych przed 2019 r. (wyjątek: książki do samodzielnej nauki),</li>
+      <li>❌ Podręczniki szkolne przeznaczone dla nauczycieli (z odpowiedziami),</li>
+      <li>❌ Kodeksy prawne, ustawy, komentarze do zmienionych rok wstecz (wyjątek: prawo kanoniczne, prawo rzymskie, antyki),</li>
+      <li>❌ Nieaktualowane płyty CD, DVD, winylowe,</li>
+      <li>❌ Książki pisane alfabetem Braille'a,</li>
+      <li>❌ Książki z wyraźnymi śladami zniszczenia,</li>
+      <li>❌ Gazety, czasopisma i katalogi.</li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    <div class="hr-space">
+    <hr /></div>
+    
+    <div>
+    <h2><strong>Zamów szybką i sprawną wycenę książek z odbiorem i gotówką do ręki!</strong></h2>
+    
+    <div class="__two__col">
+    <div class="__bg__orange">
+    <h2><strong>Dojeżdżamy bezpłatnie do każdej miejscowości w Polsce!</strong></h2>
+    </div>
+    
+    <div class="col-md-6 col-xs-12"><img alt="Dostawca" src="https://static2.tezeusz.pl/media/0001/01/49c2bc3ef64fd0a74f7c6eb3475ac8df9f87b35a.jpeg" /></div>
+    </div>
+    </div>
+    <!-- Fifth Part Section -->
+    
+    <div class="hr-space">
+    <hr /></div>
+    
+    <div>
+    <h2><strong>Co zyskujesz:</strong></h2>
+    
+    <div class="pros">
+    <div class="pros-container">
+    <div class="pros-container"><img alt="" src="https://static2.tezeusz.pl/media/0001/01/663cdb2e3dc5ec70cff15dd68fea0f1dfaffcd4a.png" />
+    <h4 class="h4-pros"><strong>O nic się nie martwisz</strong></h4>
+    
+    <p class="pros-text">Nie musisz nic wystawiać aukcji, pakować książek czy planować transportu. Wszystko załatwiamy za Ciebie.</p>
+    </div>
+    </div>
+    
+    <div class="pros-container">
+    <div class="pros-container"><img alt="" src="https://static2.tezeusz.pl/media/0001/01/8e82309fced90b34866c60aeb4d4f4071bf1d019.png" />
+    <h4 class="h4-pros"><strong>Gotówka prosto do ręki</strong></h4>
+    
+    <p class="pros-text">Na starych, używanych książkach możesz po prostu zarobić.</p>
+    </div>
+    </div>
+    
+    <div class="pros-container">
+    <div class="pros-container"><img alt="" src="https://static2.tezeusz.pl/media/0001/01/73eab9d16625cb1a5001d40a1a7168a32355e31c.png" />
+    <h4 class="h4-pros"><strong>Miejsce na nowe książki</strong></h4>
+    
+    <p class="pros-text">Gromadzone latami lub odziedziczone księgozbiory mogą być problematyczne. "Wietrzenie" księgozbioru to okazja do uporządkowania książek lub zrobienia miejsca na nowe.</p>
+    </div>
+    </div>
+    
+    <div class="pros-container">
+    <div class="pros-container"><img alt="" src="https://static2.tezeusz.pl/media/0001/01/9bf9f3a08acddf1cebb02054d7bfab2b1e3e26db.png" />
+    <h4 class="h4-pros"><strong>Recykling literatury</strong></h4>
+    
+    <p class="pros-text">Drugi obieg jest doskonałym sposobem na to, aby książki dotarły do nowych odbiorców. Im więcej osób skorzysta z tego samego egzemplarza, tym mniejsze obciążenie dla środowiska.</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    <div class="hr-space">
+    <hr /></div>
+    
+    <div>
+    <h2><strong>Sprawdź, ile jest wart Twój księgozbiór</strong></h2>
+    
+    <p>Wycenimy Twoje książki na miejscu w skupie stacjonarnym lub zdalnie, na podstawie przesłanej przez Ciebie listy albo katalogu.</p>
+    
+    <p>Nasz pracownik przyjedzie po książki do Twojego domu, mieszkania lub instytucji w umówionym, dogodnym dla Ciebie terminie. Dojedziemy po zbiory na nasz koszt, spakujemy je i wyniesiemy, a Ty otrzymasz gotówkę do ręki.</p>
+    
+    <div class="hr-space">
+    <hr /></div>
+    </div>
+    
+    <div>
+    <h2><strong>Szybko i sprawnie pozbędziesz się niepotrzebnych tomów bez tracenia czasu na wystawianie ogłoszeń.</strong></h2>
+    
+    <p>Sprzedając nam swoje zbiory, nie tylko zarobisz pieniądze, ale także pozbędziesz się <strong>wielu książek naraz</strong> i od razu zwolnisz <strong>mnóstwo miejsca</strong> w mieszkaniu lub pomieszczeniach instytucji, którą reprezentujesz.</p>
+    
+    <p>Oszczędzisz także <strong>wiele godzin pracy</strong>, którą trzeba byłoby włożyć w obfotografowanie całej kolekcji, opracowanie opisów i umieszczenie kilkudziesięciu lub nawet kilkuset ogłoszeń na portalach aukcyjnych lub ogłoszeniowych.</p>
+    
+    <p>Wszystko załatwimy na <strong>jednym spotkaniu</strong>.</p>
+    
+    <div class="hr-space">
+    <hr /></div>
+    </div>
+    
+    <div>
+    <h2><strong>Zobacz, jak szybko możesz sprzedać swoje zbiory</strong></h2>
+    
+    <p>Jeśli masz mniej niż 50 książek na sprzedaż, samodzielnie zamów ich bezpłatny odbiór na <a class="hreflink" href="www.skupksiazek.pl" rel="nofollow">www.skupksiazek.pl</a>.</p>
+    
+    <p>Sprzedaż większych zbiorów możesz sfinalizować już w ciągu 24 godzin od kontaktu z nami. Wycenę otrzymasz od nas mailowo lub podczas spotkania w punkcie stacjonarnym.</p>
+    
+    <div class="__btn__wrap"><a class="__btn__orange" href="https://skupksiazek.pl/" rel="nofollow">Sprzedaż większych księgozbiorów</a></div>
+    </div>
+    
+    <div>
+    <div class="hr-space">
+    <hr /></div>
+    
+    <h2><strong>Zastanawiasz się pewnie, ile pieniędzy dostaniesz za książki?</strong></h2>
+    
+    <p>Na wycenę księgozbioru składa się wiele czynników. <strong>Za jedną książkę otrzymasz kilka, kilkanaście lub nawet kilkadziesiąt złotych. </strong>Jeśli posiadasz pozycje antykwaryczne i "białe kruki", ich wartość negocjowana z Tobą satysfakcjonująco dla obu stron.</p>
+    
+    <div class="hr-space">
+    <hr /></div>
+    </div>
+    
+    <div>
+    <h2><strong>Dlaczego warto sprzedać swoje książki właśnie nam?</strong></h2>
+    
+    <p><strong>Tezeusz </strong>to największy i najnowocześniejszy antykwariat i księgarnia w Polsce. To także niezwykłe miejsce powstałe z miłości do literatury. Każdego dnia <strong>kupujemy książki</strong> od osób takich jak Ty, aby dać im drugie życie i przekazać je w ręce poszukiwaczy konkretnych tytułów i pozycji.</p>
+    
+    <p>Przez lata działalności kupiliśmy <strong>miliony książek</strong>, które przeszły przez ręce naszych specjalistów. Skontaktuj się z nami i opowiedz o swoich zbiorach, a jeden z pracowników przyjedzie po Twoje książki w umówionym terminie.</p>
+    
+    <p>Zabierzemy cały księgozbiór naraz, dzięki czemu oszczędzisz czas i energię, nie musząc wystawiać dziesiątek ogłoszeń na portalach internetowych. A <strong>gotówkę za książki</strong> dostaniesz do ręki.</p>
+    
+    <p>Selekcja i wycena zbioru odbywa się <strong>na miejscu</strong>, a podczas rozmowy ze specjalistą możesz liczyć na <strong>klarowne informacje o kryteriach i zasadach skupu</strong>.</p>
+    
+    <div class="hr-space">
+    <hr /></div>
+    </div>
+    
+    <div>
+    <h2><strong>Zobacz, co mówią o nas klienci</strong></h2>
+    
+    <p><img alt="" src="https://static2.tezeusz.pl/media/0001/01/72c36138abd126d074c909367c48a795eed1d27d.png" /></p>
+    </div>
+    
+    <div>
+    <div class="hr-space">
+    <hr /></div>
+    
+    <h2><strong>Masz naszą gwarancję!</strong></h2>
+    
+    <p>Wystawiając pojedyncze książki na sprzedaż przez internet, nigdy nie masz pewności, czy Twój wysiłek faktycznie Ci się opłaci.</p>
+    
+    <p>Zamawiając wycenę i odbiór książek w Tezeuszu, masz naszą gwarancję, że po zaakceptowaniu listy tytułów przyjedziemy w umówionym terminie i odbierzemy cały zbiór podczas jednego spotkania.</p>
+    
+    <div class="hr-space">
+    <hr /></div>
+    </div>
+    
+    <div>
+    <h2><strong>Sprzedaj niepotrzebne książki w skupie Tezeusza, a dzięki temu...</strong></h2>
+    
+    <ul>
+      <li>Za każdą książkę spełniającą nasze warunki otrzymasz od kilku do kilkudziesięciu złotych (kwotę za cenniejsze pozycje omówimy osobno) i zasilisz domowy budżet.</li>
+      <li>Szybko i sprawnie zmonetyzujesz zbiory instytucji, którą reprezentujesz.</li>
+      <li>Pozbędziesz się „łapaczy kurzu” i zwolnisz miejsce na regałach.</li>
+      <li>Uporządkujesz swój księgozbiór i zyskasz przestrzeń na nowe tytuły.</li>
+      <li>Zaoszczędzisz kilkadziesiąt godzin potrzebnych na sfotografowanie i opisanie książek oraz wystawienie ogłoszeń na portalach internetowych lub w grupach sprzedażowych.</li>
+      <li>Zyskasz gwarancję odbioru całego zaakceptowanego przez nas zbioru, przez co sprzedaż nawet kilkaset książek w jeden dzień!</li>
+      <li>Podarujesz literaturze nowe życie i zadbasz o redukcję odpadów, przez co odciążysz planetę.</li>
+    </ul>
+    </div>
+    <!-- Added Section -->
+    
+    <div>
+    <div class="pros2">
+    <div class="pros2-container">
+    <h4 class="h4-pros"><strong>Działamy na terenie całej Polski</strong></h4>
+    
+    <p class="pros-text">Zadzwoń do nas, przyjdź do stacjonarnego antykwariatu lub napisz maila. Jesteśmy czynni od poniedziałku do piątku w godzinach 9-17</p>
+    </div>
+    
+    <div class="pros2-container">
+    <h4 class="h4-pros"><strong>Książki wycenimy na miejscu u Ciebie bądź zdalnie</strong></h4>
+    
+    <p class="pros-text">Na podstawie przesłanej listy lub katalogu online.</p>
+    </div>
+    
+    <div class="pros2-container">
+    <h4 class="h4-pros"><strong>Dostosujemy się do Ciebie i Twojego kalendarza</strong></h4>
+    
+    <p class="pros-text">Nasz specjalista przyjedzie dogodnym dla Ciebie terminie, nawet do 12 godzin od zgłoszenia!</p>
+    </div>
+    
+    <div class="pros2-container">
+    <h4 class="h4-pros"><strong>Płacimy gotówką od ręki.</strong></h4>
+    
+    <p class="pros-text">Zrobimy wszystko za Ciebie! Dojazd i załadunek jest zawsze u nas darmowy i zbieramy wszystkie książki.</p>
+    </div>
+    </div>
+    
+    <div class="__btn__wrap"><a class="__btn__orange" href="https://skupksiazek.pl/" rel="nofollow">Sprzedaję moje książki!</a></div>
+    </div>
+    
+    <div>
+    <div class="hr-space">
+    <hr /></div>
+    
+    <h2><strong>Często zadawane pytania</strong></h2>
+    
+    <p><strong>Czy skup książek Tezeusza to na pewno coś dla mnie?</strong></p>
+    
+    <p>Jeśli masz na sprzedaż zbędne książki: naukowe, popularnonaukowe, poradniki, aktualne podręczniki akademickie lub do szkół średnich albo literaturę piękną i chcesz szybko sfinalizować transakcję, to TAK, nasz skup jest dla Ciebie doskonałym wyborem.</p>
+    
+    <p>To także świetna opcja dla tych, którzy chcą dać nieczytanym już książkom drugie życie i wysłać je dalej w świat, zamiast wyrzucać na makulaturę.</p>
+    
+    <p>Skupujemy książki od osób prywatnych, instytucji, firm i bibliotek.</p>
+    
+    <p><strong>Mam mniej niż 50 książek. Jak mogę Wam je sprzedać?</strong></p>
+    
+    <p>Jeśli masz mniej niż 50 książek spełniających nasze warunki (czyste, suche książki należące do wymienionych powyżej kategorii), skorzystaj z automatycznego skupu na <a class="hreflink" href="http://www.skupksiazek.pl" rel="nofollow">www.skupksiazek.pl</a>.</p>
+    
+    <p><strong>Mam więcej niż 50 książek. Jak mogę zamówić wycenę i odbiór?</strong></p>
+    
+    <p>Jeśli jesteś klientem indywidualnym i masz więcej niż 50 książek, skontaktuj się z najbliższym skupem regionalnym. Opowiedz nam, jakie pozycje posiadasz w swoim zbiorze, a my wycenimy je dla Ciebie. Bezpłatnie przyjedziemy do każdej miejscowości w Polsce, nawet w ciągu 24 godzin od Twojego telefonu lub maila. Spakujemy i wyniesiemy książki, a Ty otrzymasz gotówkę od ręki.</p>
+    
+    <p><strong>Moja instytucja ma na sprzedaż większy księgozbiór. Jak mogę zamówić wycenę i odbiór?</strong></p>
+    
+    <p>Jeśli Twoja instytucja, np. biblioteka, księgarnia czy parafia, ma na sprzedaż duże zbiory – najczęściej jest to kilkaset pozycji – skontaktuj się z najbliższym skupem regionalnym. Wycena i odbiór księgozbiorów przeprowadzany jest na podstawie katalogu lub listy albo podczas spotkania w skupie stacjonarnym bądź pod podanym przez Ciebie adresem.</p>
+    
+    <p><strong>Ile trwa cały proces od A do Z?</strong></p>
+    
+    <p>Wycena i sprzedaż Twojego zbioru może zająć nawet 24 godziny! Nasz samoobsługowy serwis <a class="hreflink" href="http://www.skupksiazek.pl" rel="nofollow">www.skupksiazek.pl</a> jest dostępny całodobowo, dzięki czemu możesz zająć się szybką sprzedażą swoich książek o każdej porze i na co dzień.</p>
+    
+    <p><strong>Czy dostanę za moje książki kwotę, która widnieje na okładce?</strong></p>
+    
+    <p>Za jedną książkę otrzymasz od kilku do kilkudziesięciu złotych. Jeśli masz w swoich zbiorach rzadkie i cenne okazy, wynegocjujemy satysfakcjonującą Cię cenę.</p>
+    
+    <p><strong>Mieszkam na wsi. Czy na pewno dojedziecie do mojej miejscowości?</strong></p>
+    
+    <p>Zależy nam na tym, aby Twoje książki znalazły się na tezeuszowych półkach. Dlatego jeśli posiadasz księgozbiór spełniający nasze warunki, to nie wahaj się dłużej, tylko odezwij się do Twojego punktu regionalnego, aby zamówić wycenę i odbiór. Dojeżdżamy po książki bezpłatnie do każdej miejscowości w Polsce.</p>
+    
+    <p><strong>Czy muszę zapakować książki samodzielnie?</strong></p>
+    
+    <p>Jeśli masz na sprzedaż niewielki księgozbiór i użyjesz serwisu <a class="hreflink" href="http://www.skupksiazek.pl" rel="nofollow">www.skupksiazek.pl</a>, to tak, książki trzeba będzie zapakować i wydać kurierowi lub włożyć do paczkomatu – wysyłka odbywa się na nasz koszt. W przypadku większych zbiorów (powyżej 50 pozycji spełniających nasze warunki) przyjedziemy do Ciebie, aby bezpłatnie zapakować i zabrać książki. Twoim jedynym zadaniem będzie przyjęcie od nas gotówki prosto do ręki i cieszyć się, że Twoje zbiory zyskały nowe życie.</p>
+    </div>
+    
+    <div>
+    <h2><strong>Masz inne pytanie?</strong></h2>
+    
+    <p><strong>Zadzwoń: <span>883 946 389</span></strong></p>
+    
+    <p>Infolinia jest czynna od poniedziałku do piątku w godz. 8:00-16:00.</p>
+    
+    <div class="__btn__wrap"><a class="__btn__orange" href="https://skupksiazek.pl/" rel="nofollow">Wszystko już wiem! Sprzedaję książki</a></div>
+    </div>
+    </div>
+    </div>
+    </section>
+    </main>
+    
