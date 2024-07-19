@@ -1,314 +1,269 @@
 <main>
     <section class="is-section">
     <style type="text/css">.is-section h1,
-              .is-section h2,
-              .is-section h3,
-              .is-section h4,
-              .is-section h5,
-              .is-section p,
-              .is-section strong {
-                padding-top: 0.5rem !important;
-              }
-    
-              h1 {
-                font-size: 2.2rem;
-                font-weight: bold;
-              }
-              h2 {
-                font-size: 1.2rem;
-                font-weight: bold;
-              }
-    
-              .orange-text {
-                color: #FF8235;
-              }
-    
-              .is-section p,
-              .is-section ul {
-                font-size: large;
-              }
-    
-              .is-section ol,
-              .is-section ul {
-                float: unset;
-              }
-    
-              .is-section .__btn__wrap {
-                padding: 1.5rem 0;
-              }
-    
-              .is-section .__btn__orange {
-                background-color: #f37431;
-                color: #ffffff;
-                border-radius: 2rem;
-                border: 1px #f37431;
-                padding: 0.7rem 1.5rem;
-                margin: 1rem 0;
-                text-decoration: unset;
-              }
-    
-              .is-section .__bg__orange {
-                background-color: #f37431;
-                /* max-height: 100%;
-                height: 100%;
-                padding: 8.5rem 0 !important; */
-                margin-bottom: 0.5rem;
-    
-                width: 100%; /* Ensures the div takes up 100% of the parent div's width */
-                height: 100%; /* Ensures the div takes up 100% of the parent div's height */
-                box-sizing: border-box; /* Includes padding and border in the element's total width and height */
-              }
-    
-              .is-section .__bg__orange h2 {
-                margin: 0;
-                color: #ffffff;
-                padding: 1rem;
-              }
-    
-              .is-section .__two__col {
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                text-align: center;
-                /* background-color: #f37431;
-                background-position: 25% 75%;
-                background-size: contain;
-                background-repeat: no-repeat; */
-              }
-    
-              .hr-space {
-                padding: 1rem 0;
-              }
-    
-              hr {
-                margin: 1rem 0;
-              }
-              .is-section img {
-                max-width: 100%;
-              }
-    
-              @media (max-width: 1020px) {
+                .is-section h2,
+                .is-section h3,
+                .is-section h4,
+                .is-section h5,
+                .is-section p,
+                .is-section strong {
+                  padding-top: 0.5rem !important;
+                }
+      
+                h1 {
+                  font-size: 2.2rem;
+                  font-weight: bold;
+                }
+                h2 {
+                  font-size: 1.2rem;
+                  font-weight: bold;
+                }
+      
+                .orange-text {
+                  color: #FF8235;
+                }
+      
+                .is-section p,
+                .is-section ul {
+                  font-size: large;
+                }
+      
+                .is-section ol,
+                .is-section ul {
+                  float: unset;
+                }
+      
+                .is-section .__btn__wrap {
+                  padding: 1.5rem 0;
+                }
+      
+                .is-section .__btn__orange {
+                  background-color: #f37431;
+                  color: #ffffff;
+                  border-radius: 2rem;
+                  border: 1px #f37431;
+                  padding: 0.7rem 1.5rem;
+                  margin: 1rem 0;
+                  text-decoration: unset;
+                }
+      
+                .is-section .__bg__orange {
+                  background-color: #f37431;
+                  /* max-height: 100%;
+                  height: 100%;
+                  padding: 8.5rem 0 !important; */
+                  margin-bottom: 0.5rem;
+      
+                  width: 100%; /* Ensures the div takes up 100% of the parent div's width */
+                  height: 100%; /* Ensures the div takes up 100% of the parent div's height */
+                  box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+                }
+      
+                .is-section .__bg__orange h2 {
+                  margin: 0;
+                  color: #ffffff;
+                  padding: 1rem;
+                }
+      
                 .is-section .__two__col {
-                  flex-direction: column;
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  text-align: center;
+                  /* background-color: #f37431;
+                  background-position: 25% 75%;
+                  background-size: contain;
+                  background-repeat: no-repeat; */
                 }
-              }
-    
-              .container {
-                display: flex;
-                flex-wrap: wrap;
-            }
-    
-            .places, .image {
-                flex: 1;
-                padding: 10px;
-            }
-    
-            @media (max-width: 1060px) {
+      
+                .hr-space {
+                  padding: 1rem 0;
+                }
+      
+                hr {
+                  margin: 1rem 0;
+                }
+                .is-section img {
+                  max-width: 100%;
+                }
+      
+                @media (max-width: 1020px) {
+                  .is-section .__two__col {
+                    flex-direction: column;
+                  }
+                }
+      
                 .container {
-                    flex-direction: column;
-                }
-            }
-    
-            .image img {
-                max-width: 100%;
-                height: auto;
-            }
-    
-            .content {
-                display: flex;
-                justify-content: space-between;
-                gap: 20px;
-            }
-    
-            .content div {
-                flex: 1;
-            }
-    
-            .content h4 {
-                font-size: 1.5rem;
-                color: #333;
-                margin-bottom: 10px;
-            }
-    
-            .content ul {
-                list-style-type: none;
-                padding: 0;
-            }
-    
-            .content li {
-                margin: 5px 0;
-                padding-left: 20px;
-                position: relative;
-            }
-    
-            @media (max-width: 1024px) {
-                .content {
-                    flex-direction: column;
-                }
-            }
-    
-            .section h2 {
-                font-size: 24px;
-                color: #333;
-            }
-    
-            .section p {
-                font-size: 18px;
-                color: #333;
-            }
-    
-            .highlight {
-                color: #ff9800;
-            }
-    
-            .steps1 {
-                display: flex;
-                justify-content: center;
+                  display: flex;
+                  flex-wrap: wrap;
+              }
+      
+              .places, .image {
+                  flex: 1;
+                  padding: 10px;
+              }
+      
+              @media (max-width: 1060px) {
+                  .container {
+                      flex-direction: column;
+                  }
+              }
+      
+              .image img {
+                  max-width: 100%;
+                  height: auto;
+              }
+      
+              .content {
+                  display: flex;
+                  justify-content: space-between;
+                  gap: 20px;
+              }
+      
+              .content div {
+                  flex: 1;
+              }
+      
+              .content h4 {
+                  font-size: 1.5rem;
+                  color: #333;
+                  margin-bottom: 10px;
+              }
+      
+              .content ul {
+                  list-style-type: none;
+                  padding: 0;
+              }
+      
+              .content li {
+                  margin: 5px 0;
+                  padding-left: 20px;
+                  position: relative;
+              }
+      
+              @media (max-width: 1024px) {
+                  .content {
+                      flex-direction: column;
+                  }
+              }
+      
+              .section h2 {
+                  font-size: 24px;
+                  color: #333;
+              }
+      
+              .section p {
+                  font-size: 18px;
+                  color: #333;
+              }
+      
+              .highlight {
+                  color: #ff9800;
+              }
+      
+              .steps1 {
+                  display: flex;
+                  justify-content: center;
+                  flex-wrap: wrap;
+                  gap: 20px;
+                  margin: 20px 0;
+                  list-style: none;
+              }
+      
+              .steps1 div {
+                  border: 2px solid #ff9800;
+                  padding: 10px;
+                  border-radius: 5px;
+                  flex: 1;
+                  min-width: 200px;
+              }
+      
+              .steps1 {
+                text-align: center;
+              }
+              
+              .pros {
+                display: flex; 
+                justify-content: space-between; 
+                text-align: center; 
                 flex-wrap: wrap;
-                gap: 20px;
-                margin: 20px 0;
-                list-style: none;
-            }
-    
-            .steps1 div {
-                border: 2px solid #ff9800;
-                padding: 10px;
-                border-radius: 5px;
-                flex: 1;
-                min-width: 200px;
-            }
-    
-            .steps1 {
-              text-align: center;
-            }
-            
-            .pros {
-              display: flex; 
-              justify-content: space-between; 
-              text-align: center; 
-              flex-wrap: wrap;
-            }
-    
-            @media (max-width: 1079px) {
-                .pros, .pros2 {
+              }
+      
+              @media (max-width: 1079px) {
+                  .pros, .pros2 {
+                      flex-direction: column;
+                  }
+                  .pros > div {
+                    margin: 10px 0;
+                  }
+      
+                  .pros2-container { 
+                    padding: 10px 0;
+                  }
+      
+                  .pros-container, .pros2-container {
+                    margin: 20px;
+                  }
+                  .steps1 {
+                      flex-direction: column;
+                  }
+                  .steps1 > p {
+                      text-align: center;
+                      justify-content: center;
+                  }
+              }
+              
+              .pros-container {
+                margin: 0 10px;
+                background: #F6F6F6;
+                flex: 1; 
+                padding: 10px; 
+                min-width: 150px;
+              }
+              
+              p.pros-text {
+                font-size: 1.2rem;
+              }
+      
+              h4.h4-pros {
+                font-size: 2rem;
+              }
+      
+              .pros2 {
+                margin-top: 5rem;
+                display: flex; 
+                justify-content: space-around; 
+                text-align: center; background-color: #f8f8f8; 
+                padding: 20px; 
+                border-radius: 8px; 
+                flex-wrap: wrap;
+              }
+      
+              .pros2-container {
+                flex: 1; 
+                padding: 10px; 
+                min-width: 150px;
+              }
+      
+              a.hreflink {
+                  color: #333;
+              }
+      
+              .steps2 {
+                display: flex; 
+                justify-content: space-between; 
+                max-width: 900px; 
+                text-align: center;
+              }
+      
+              @media (max-width: 1079px) {
+                  .steps2 {
                     flex-direction: column;
-                }
-                .pros > div {
-                  margin: 10px 0;
-                }
-    
-                .pros2-container { 
-                  padding: 10px 0;
-                }
-    
-                .pros-container, .pros2-container {
-                  margin: 20px;
-                }
-                .steps1 {
-                    flex-direction: column;
-                }
-                .steps1 > p {
-                    text-align: center;
-                    justify-content: center;
-                }
-            }
-            
-            .pros-container {
-              margin: 0 10px;
-              background: #F6F6F6;
-              flex: 1; 
-              padding: 10px; 
-              min-width: 150px;
-            }
-            
-            p.pros-text {
-              font-size: 1.2rem;
-            }
-    
-            h4.h4-pros {
-              font-size: 2rem;
-            }
-    
-            .pros2 {
-              margin-top: 5rem;
-              display: flex; 
-              justify-content: space-around; 
-              text-align: center; background-color: #f8f8f8; 
-              padding: 20px; 
-              border-radius: 8px; 
-              flex-wrap: wrap;
-            }
-    
-            .pros2-container {
-              flex: 1; 
-              padding: 10px; 
-              min-width: 150px;
-            }
-    
-            a.hreflink {
-                color: #333;
-            }
-    
-            .steps2 {
-              display: flex; 
-              justify-content: space-between; 
-              max-width: 900px; 
-              text-align: center;
-            }
-    
-            @media (max-width: 1079px) {
-                .steps2 {
-                  flex-direction: column;
-                }
-            }
-
-            .black-text {
-                text-decoration: none;
-                color: #fff;
-              border: 1px #f37431;
-              background: #f37431;
-              padding: 0.5rem 1.5rem;
-              border-radius: 1rem;
-              transition: all 0.3s ease;
-
-            }
-
-            .black-text:hover {
+                  }
+              }
+              .black-text {
                 color: #000;
-                background-color: #fff;
-            }
-            
-
-            .loc {
-            text-align: center;
-        }
-
-        .location {
-          gap: 1rem;
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          margin-bottom: 20px;
-          align-items: center;
-
-        }
-
-        .city {
-            font-weight: bold;
-            margin: 0; 
-        }
-
-        .contact {
-            margin: 0; 
-        }
-
-        @media (max-width: 980px) {
-                .location {
-                  flex-direction: column;
-                }
-            }
-
-
+              }
     </style>
     <div class="is-container">
     <div class="static-page-content">
@@ -323,8 +278,8 @@
     <h2 class="orange-text"><strong>Jak wymienić niepotrzebne książki na złotówki?</strong></h2>
     
     <ul>
-      <li>Masz <strong>mniej niż 50 książek</strong> spełniających <u>nasze kryteria</u> – wejdź na <a class="hreflink" href="www.skupksiazek.pl" rel="nofollow">www.skupksiazek.pl</a></li>
-      <li>Ty (lub Twoja instytucja – biblioteka, księgarnia, parafia) <strong>masz ponad 50 książek</strong> spełniających nasze kryteria?</li>
+        <li>Masz <strong>mniej niż 50 książek</strong> spełniających <u>nasze kryteria</u> – wejdź na <a class="hreflink" href="www.skupksiazek.pl" rel="nofollow">www.skupksiazek.pl</a></li>
+        <li>Ty (lub Twoja instytucja – biblioteka, księgarnia, parafia) <strong>masz ponad 50 książek</strong> spełniających nasze kryteria?</li>
     </ul>
     
     <div class="hr-space">
@@ -333,82 +288,46 @@
     <h2><strong>Zamów wycenę i odbiór!</strong></h2>
     
     <h2 class="orange-text"><strong>Zadzwoń do skupu regionalnego lub wyślij e-mail zawierający Twój numer telefonu i liczbę książek.</strong></h2>
-
-    <div>
-      <div class="loc">
-        <div class="location">
-            <p class="city"><strong>Białystok</strong></p>
-            <p class="contact"><a class="black-text" href="tel:532398640">📞 532 398 640</a></p><p><a class="black-text" href="mailto:bialoleka@skupksiazek.pl">📨 bialoleka@skupksiazek.pl</a></p>
-        </div>
-        <div class="location">
-            <p class="city"><strong>Bydgoszcz</strong></p>
-            <p class="contact"><a class="black-text" href="tel:728809117">📞 728 809 117</a></p><p><a class="black-text" href="mailto:gdansk@skupksiazek.pl">📨 gdansk@skupksiazek.pl</a></p>
-        </div>
-        <div class="location">
-            <p class="city"><strong>Gdańsk</strong></p>
-            <p class="contact"><a class="black-text" href="tel:728809117">📞 728 809 117</a></p><p><a class="black-text" href="mailto:gdansk@skupksiazek.pl">📨 gdansk@skupksiazek.pl</a></p>
-        </div>
-        <div class="location">
-            <p class="city"><strong>Katowice</strong></p>
-            <p class="contact"><a class="black-text" href="tel:600548901">📞 600 548 901</a></p><p><a class="black-text" href="mailto:katowice@skupksiazek.pl">📨 katowice@skupksiazek.pl</a></p>
-        </div>
-        <div class="location">
-            <p class="city"><strong>Kielce</strong></p>
-            <p class="contact"><a class="black-text" href="tel:698316300">📞 698 316 300</a></p><p><a class="black-text" href="mailto:krakow@skupksiazek.pl">📨 krakow@skupksiazek.pl</a></p>
-        </div>
-        <div class="location">
-            <p class="city"><strong>Kraków</strong></p>
-            <p class="contact"><a class="black-text" href="tel:698316300">📞 698 316 300</a></p><p><a class="black-text" href="mailto:krakow@skupksiazek.pl">📨 krakow@skupksiazek.pl</a></p>
-        </div>
-        <div class="location">
-            <p class="city"><strong>Lublin</strong></p>
-            <p class="contact"><a class="black-text" href="tel:532395008">📞 532 395 008</a></p><p><a class="black-text" href="mailto:lublin@skupksiazek.pl">📨 lublin@skupksiazek.pl</a></p>
-        </div>
-        <div class="location">
-            <p class="city"><strong>Łódź</strong></p>
-            <p class="contact"><a class="black-text" href="tel:698110400">📞 698 110 400</a></p><p><a class="black-text" href="mailto:zoliborz@skupksiazek.pl">📨 zoliborz@skupksiazek.pl</a></p>
-        </div>
-        <div class="location">
-            <p class="city"><strong>Olsztyn</strong></p>
-            <p class="contact"><a class="black-text" href="tel:728809117">📞 728 809 117</a></p><p><a class="black-text" href="mailto:gdansk@skupksiazek.pl">📨 gdansk@skupksiazek.pl</a></p>
-        </div>
-        <div class="location">
-            <p class="city"><strong>Opole</strong></p>
-            <p class="contact"><a class="black-text" href="tel:664008300">📞 664 008 300</a></p><p><a class="black-text" href="mailto:wroclaw@skupksiazek.pl">📨 wroclaw@skupksiazek.pl</a></p>
-        </div>
-        <div class="location">
-            <p class="city"><strong>Poznań</strong></p>
-            <p class="contact"><a class="black-text" href="tel:664734834">📞 664 734 834</a></p><p><a class="black-text" href="mailto:poznan@skupksiazek.pl">📨 poznan@skupksiazek.pl</a></p>
-        </div>
-        <div class="location">
-            <p class="city"><strong>Rzeszów</strong></p>
-            <p class="contact"><a class="black-text" href="tel:698316300">📞 698 316 300</a></p><p><a class="black-text" href="mailto:krakow@skupksiazek.pl">📨 krakow@skupksiazek.pl</a></p>
-        </div>
-        <div class="location">
-            <p class="city"><strong>Szczecin</strong></p>
-            <p class="contact"><a class="black-text" href="tel:532398279">📞 532 398 279</a></p><p><a class="black-text" href="mailto:szczecin@skupksiazek.pl">📨 szczecin@skupksiazek.pl</a></p>
-        </div>
-        <div class="location">
-            <p class="city"><strong>Toruń</strong></p>
-            <p class="contact"><a class="black-text" href="tel:728809117">📞 728 809 117</a></p><p><a class="black-text" href="mailto:gdansk@skupksiazek.pl">📨 gdansk@skupksiazek.pl</a></p>
-        </div>
-        <div class="location">
-            <p class="city"><strong>Warszawa</strong> (woj. mazowieckie cz. lewobrzeżna)</p>
-            <p class="contact"><a class="black-text" href="tel:698110400">📞 698 110 400</a></p><p><a class="black-text" href="mailto:zoliborz@skupksiazek.pl">📨 zoliborz@skupksiazek.pl</a></p>
-        </div>
-        <div class="location">
-            <p class="city"><strong>Warszawa</strong> (woj. mazowieckie, cz. prawobrzeżna)</p>
-            <p class="contact"> <a class="black-text" href="tel:532398640">📞 532 398 640</a></p><p><a class="black-text" href="mailto:bialoleka@skupksiazek.pl">📨 bialoleka@skupksiazek.pl</a></p>
-        </div>
-        <div class="location">
-            <p class="city"><strong>Wrocław</strong></p>
-            <p class="contact"><a class="black-text" href="tel:664008300">📞 664 008 300</a></p><p><a class="black-text" href="mailto:wroclaw@skupksiazek.pl">📨 wroclaw@skupksiazek.pl</a></p>
-        </div>
-        <div class="location">
-            <p class="city"><strong>Zielona Góra</strong></p>
-            <p class="contact"><a class="black-text" href="tel:664008300">📞 664 008 300</a></p><p><a class="black-text" href="mailto:wroclaw@skupksiazek.pl">📨 wroclaw@skupksiazek.pl</a></p>
-        </div>
+    
+    <div class="container">
+    <div class="places">
+    <div><strong>Białystok</strong> – <a class="black-text" href="tel:532398640">tel. 532 398 640</a>, <a class="black-text" href="mailto:bialoleka@skupksiazek.pl">e-mail: bialoleka@skupksiazek.pl</a></div>
+    
+    <div><strong>Bydgoszcz</strong> – <a class="black-text" href="tel:728809117">tel. 728 809 117</a>, <a class="black-text" href="mailto:gdansk@skupksiazek.pl">e-mail: gdansk@skupksiazek.pl</a></div>
+    
+    <div><strong>Gdańsk</strong> – <a class="black-text" href="tel:728809117">tel. 728 809 117</a>, <a class="black-text" href="mailto:gdansk@skupksiazek.pl">e-mail: gdansk@skupksiazek.pl</a></div>
+    
+    <div><strong>Katowice</strong> – <a class="black-text" href="tel:600548901">tel. 600 548 901</a>, <a class="black-text" href="mailto:katowice@skupksiazek.pl">e-mail: katowice@skupksiazek.pl</a></div>
+    
+    <div><strong>Kielce</strong> – <a class="black-text" href="tel:698316300">tel. 698 316 300</a>, <a class="black-text" href="mailto:krakow@skupksiazek.pl">e-mail: krakow@skupksiazek.pl</a></div>
+    
+    <div><strong>Kraków</strong> – <a class="black-text" href="tel:698316300">tel. 698 316 300</a>, <a class="black-text" href="mailto:krakow@skupksiazek.pl">e-mail: krakow@skupksiazek.pl</a></div>
+    
+    <div><strong>Lublin</strong> – <a class="black-text" href="tel:532395008">tel. 532 395 008</a>, <a class="black-text" href="mailto:lublin@skupksiazek.pl">e-mail: lublin@skupksiazek.pl</a></div>
+    
+    <div><strong>Łódź</strong> – <a class="black-text" href="tel:698110400">tel. 698 110 400</a>, <a class="black-text" href="mailto:zoliborz@skupksiazek.pl">e-mail: zoliborz@skupksiazek.pl</a></div>
+    
+    <div><strong>Olsztyn</strong> – <a class="black-text" href="tel:728809117">tel. 728 809 117</a>, <a class="black-text" href="mailto:gdansk@skupksiazek.pl">e-mail: gdansk@skupksiazek.pl</a></div>
+    
+    <div><strong>Opole</strong> – <a class="black-text" href="tel:664008300">tel. 664 008 300</a>, <a class="black-text" href="mailto:wroclaw@skupksiazek.pl">e-mail: wroclaw@skupksiazek.pl</a></div>
+    
+    <div><strong>Poznań</strong> – <a class="black-text" href="tel:664734834">tel. 664 734 834</a>, <a class="black-text" href="mailto:poznan@skupksiazek.pl">e-mail: poznan@skupksiazek.pl</a></div>
+    
+    <div><strong>Rzeszów</strong> – <a class="black-text" href="tel:698316300">tel. 698 316 300</a>, <a class="black-text" href="mailto:krakow@skupksiazek.pl">e-mail: krakow@skupksiazek.pl</a></div>
+    
+    <div><strong>Szczecin</strong> – <a class="black-text" href="tel:532398279">tel. 532 398 279</a>, <a class="black-text" href="mailto:szczecin@skupksiazek.pl">e-mail: szczecin@skupksiazek.pl</a></div>
+    
+    <div><strong>Toruń</strong> – <a class="black-text" href="tel:728809117">tel. 728 809 117</a>, <a class="black-text" href="mailto:gdansk@skupksiazek.pl">e-mail: gdansk@skupksiazek.pl</a></div>
+    
+    <div><strong>Warszawa</strong> – woj. mazowieckie cz. lewobrzeżna - <a class="black-text" href="tel:698110400">tel. 698 110 400</a>, <a class="black-text" href="mailto:zoliborz@skupksiazek.pl">e-mail: zoliborz@skupksiazek.pl</a></div>
+    
+    <div><strong>Warszawa</strong> – woj. mazowieckie, cz. prawobrzeżna - <a class="black-text" href="tel:532398640">tel. 532 398 640</a>, <a class="black-text" href="mailto:bialoleka@skupksiazek.pl">e-mail: bialoleka@skupksiazek.pl</a></div>
+    
+    <div><strong>Wrocław</strong> – <a class="black-text" href="tel:664008300">tel. 664 008 300</a>, <a class="black-text" href="mailto:wroclaw@skupksiazek.pl">e-mail: wroclaw@skupksiazek.pl</a></div>
+    
+    <div><strong>Zielona Góra</strong> – <a class="black-text" href="tel:664008300">tel. 664 008 300</a>, <a class="black-text" href="mailto:wroclaw@skupksiazek.pl">e-mail: wroclaw@skupksiazek.pl</a></div>
     </div>
+    
     <div class="image">
     <h2 class="orange-text"><strong>Możesz też od razu przyjechać do jednego z naszych punktów stacjonarnych:</strong></h2>
     <img alt="Lokalizacje skupów" src="https://static2.tezeusz.pl/media/0001/01/707c273394363aa3a24c586752796b4b9794ee12.png" /></div>
@@ -523,13 +442,13 @@
     <h4>Książki powinny być <strong>suche i czyste</strong>. Najchętniej skupujemy pozycje <strong>o różnej tematyce</strong>:</h4>
     
     <ul>
-      <li>✅ naukowe,</li>
-      <li>✅ popularnonaukowe,</li>
-      <li>✅ profesjonalne,</li>
-      <li>✅ poradniki,</li>
-      <li>✅ literaturę piękną,</li>
-      <li>✅ komiksy,</li>
-      <li>✅ aktualne podręczniki akademickie i do szkół średnich.</li>
+        <li>✅ naukowe,</li>
+        <li>✅ popularnonaukowe,</li>
+        <li>✅ profesjonalne,</li>
+        <li>✅ poradniki,</li>
+        <li>✅ literaturę piękną,</li>
+        <li>✅ komiksy,</li>
+        <li>✅ aktualne podręczniki akademickie i do szkół średnich.</li>
     </ul>
     </div>
     
@@ -537,18 +456,18 @@
     <h4>Takich książek <strong>nie skupujemy</strong>:</h4>
     
     <ul>
-      <li>❌ Podręczniki do gimnazjum i szkoły podstawowej,</li>
-      <li>❌ Podręczniki do liceum i technikum wydane przed 2019 r. (wyjątek: podręczniki do liceum plastycznego),</li>
-      <li>❌ Vademeca, repetytoria, maturalne karty pracy wydane przed 2019 r.,</li>
-      <li>❌ Podręczniki szkolne do nauki języków obcych wydanych przed 2019 r. (wyjątek: książki do samodzielnej nauki),</li>
-      <li>❌ Podręczniki szkolne przeznaczone dla nauczycieli (z odpowiedziami),</li>
-      <li>❌ Kodeksy prawne, ustawy, komentarze do zmienionych rok wstecz (wyjątek: prawo kanoniczne, prawo rzymskie, antyki),</li>
-      <li>❌ Nieaktualowane płyty CD, DVD, winylowe,</li>
-      <li>❌ Książki pisane alfabetem Braille'a,</li>
-      <li>❌ Książki z wyraźnymi śladami zniszczenia,</li>
-      <li>❌ Gazety, czasopisma i katalogi.</li>
+        <li>❌ Podręczniki do gimnazjum i szkoły podstawowej,</li>
+        <li>❌ Podręczniki do liceum i technikum wydane przed 2019 r. (wyjątek: podręczniki do liceum plastycznego),</li>
+        <li>❌ Vademeca, repetytoria, maturalne karty pracy wydane przed 2019 r.,</li>
+        <li>❌ Podręczniki szkolne do nauki języków obcych wydanych przed 2019 r. (wyjątek: książki do samodzielnej nauki),</li>
+        <li>❌ Podręczniki szkolne przeznaczone dla nauczycieli (z odpowiedziami),</li>
+        <li>❌ Kodeksy prawne, ustawy, komentarze do zmienionych rok wstecz (wyjątek: prawo kanoniczne, prawo rzymskie, antyki),</li>
+        <li>❌ Nieaktualowane płyty CD, DVD, winylowe,</li>
+        <li>❌ Książki pisane alfabetem Braille'a,</li>
+        <li>❌ Książki z wyraźnymi śladami zniszczenia,</li>
+        <li>❌ Gazety, czasopisma i katalogi.</li>
     </ul>
-    </div> 
+    </div>
     </div>
     </div>
     </div>
@@ -698,13 +617,13 @@
     <h2><strong>Sprzedaj niepotrzebne książki w skupie Tezeusza, a dzięki temu...</strong></h2>
     
     <ul>
-      <li>Za każdą książkę spełniającą nasze warunki otrzymasz od kilku do kilkudziesięciu złotych (kwotę za cenniejsze pozycje omówimy osobno) i zasilisz domowy budżet.</li>
-      <li>Szybko i sprawnie zmonetyzujesz zbiory instytucji, którą reprezentujesz.</li>
-      <li>Pozbędziesz się „łapaczy kurzu” i zwolnisz miejsce na regałach.</li>
-      <li>Uporządkujesz swój księgozbiór i zyskasz przestrzeń na nowe tytuły.</li>
-      <li>Zaoszczędzisz kilkadziesiąt godzin potrzebnych na sfotografowanie i opisanie książek oraz wystawienie ogłoszeń na portalach internetowych lub w grupach sprzedażowych.</li>
-      <li>Zyskasz gwarancję odbioru całego zaakceptowanego przez nas zbioru, przez co sprzedaż nawet kilkaset książek w jeden dzień!</li>
-      <li>Podarujesz literaturze nowe życie i zadbasz o redukcję odpadów, przez co odciążysz planetę.</li>
+        <li>Za każdą książkę spełniającą nasze warunki otrzymasz od kilku do kilkudziesięciu złotych (kwotę za cenniejsze pozycje omówimy osobno) i zasilisz domowy budżet.</li>
+        <li>Szybko i sprawnie zmonetyzujesz zbiory instytucji, którą reprezentujesz.</li>
+        <li>Pozbędziesz się „łapaczy kurzu” i zwolnisz miejsce na regałach.</li>
+        <li>Uporządkujesz swój księgozbiór i zyskasz przestrzeń na nowe tytuły.</li>
+        <li>Zaoszczędzisz kilkadziesiąt godzin potrzebnych na sfotografowanie i opisanie książek oraz wystawienie ogłoszeń na portalach internetowych lub w grupach sprzedażowych.</li>
+        <li>Zyskasz gwarancję odbioru całego zaakceptowanego przez nas zbioru, przez co sprzedaż nawet kilkaset książek w jeden dzień!</li>
+        <li>Podarujesz literaturze nowe życie i zadbasz o redukcję odpadów, przez co odciążysz planetę.</li>
     </ul>
     </div>
     <!-- Added Section -->
